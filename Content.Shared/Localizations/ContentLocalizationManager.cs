@@ -10,8 +10,8 @@ namespace Content.Shared.Localizations
         [Dependency] private readonly ILocalizationManager _loc = default!;
 
         // If you want to change your codebase's language, do it here.
-        private const string Culture = "en-US";
-
+        private const string Culture = "uk-UA"; // Ukrainian locale
+        private const string FallbackCulture = "en-US"; // Ukrainian locale
         /// <summary>
         /// Custom format strings used for parsing and displaying minutes:seconds timespans.
         /// </summary>
@@ -25,9 +25,11 @@ namespace Content.Shared.Localizations
 
         public void Initialize()
         {
-            var culture = new CultureInfo(Culture);
+            var culture = new CultureInfo(Culture); // Ukrainian locale
+            var fallbackCulture = new CultureInfo(FallbackCulture); // Ukrainian locale
 
-            _loc.LoadCulture(culture);
+            _loc.LoadCulture(fallbackCulture); // Ukrainian locale
+            _loc.SetFallbackCluture(fallbackCulture); // English locale
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
             _loc.AddFunction(culture, "POWERJOULES", FormatPowerJoules);
@@ -47,9 +49,12 @@ namespace Content.Shared.Localizations
              * This ensures the english translations continue to work as expected when fallbacks are needed.
              */
             var cultureEn = new CultureInfo("en-US");
+            var cultureUa = new CultureInfo("uk-UA"); // Ukrainian locale
 
             _loc.AddFunction(cultureEn, "MAKEPLURAL", FormatMakePlural);
             _loc.AddFunction(cultureEn, "MANY", FormatMany);
+            _loc.AddFunction(cultureUa, "MAKEPLURAL", FormatMakePlural); // Ukrainian locale
+            _loc.AddFunction(cultureUa, "MANY", FormatMany); // Ukrainian locale
         }
 
         private ILocValue FormatMany(LocArgs args)
