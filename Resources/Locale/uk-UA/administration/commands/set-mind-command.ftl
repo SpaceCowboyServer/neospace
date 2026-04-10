@@ -1,4 +1,4 @@
-cmd-setmind-desc = Transfers a mind to the specified entity. The entity must have a {$requiredComponent}. By default this will force minds that are currently visiting other entities to return (i.e., return a ghost to their main body).
-cmd-setmind-help = Usage: {$command} <entityUid> <username> [unvisit]
-cmd-setmind-command-target-has-no-content-data-message = Target player does not have content data (wtf?)
-cmd-setmind-command-target-has-no-mind-message = Target entity does not have a mind (did you forget to make sentient?)
+cmd-setmind-desc = Переміщує розум до вказаної сутності. Сутність повинна мати {$requiredComponent}. За замовчуванням це змусить розуми, які зараз відвідують інші сутності, повернутися (тобто повернути привида до свого основного тіла).
+cmd-setmind-help = Використання: {$command} <entityUid> <ім'я_користувача> [unvisit]
+cmd-setmind-command-target-has-no-content-data-message = Цільовий гравець не має даних контенту (що за чорт?)
+cmd-setmind-command-target-has-no-mind-message = Цільова сутність не має розуму (ви забули зробити її розумною?)

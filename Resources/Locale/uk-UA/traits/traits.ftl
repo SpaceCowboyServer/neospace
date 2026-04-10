@@ -1,64 +1,64 @@
-trait-blindness-name = Blindness
-trait-blindness-desc = You are legally blind, and can't see clearly past a few meters in front of you.
+trait-blindness-name = Сліпота
+trait-blindness-desc = Ви юридично сліпі й не можете чітко бачити далі, ніж на кілька метрів перед собою.
 
-trait-poor-vision-name = Short-sighted
-trait-poor-vision-desc = Your eyes are not what they once were, you have difficulty seeing things far away without corrective glasses.
+trait-poor-vision-name = Короткозорість
+trait-poor-vision-desc = Ваші очі вже не ті, що були раніше, вам важко бачити далекі предмети без коригувальних окулярів.
 
-trait-narcolepsy-name = Narcolepsy
-trait-narcolepsy-desc = You fall asleep randomly.
+trait-narcolepsy-name = Нарколепсія
+trait-narcolepsy-desc = Ви засинаєте випадковим чином.
 
-trait-pacifist-name = Pacifist
-trait-pacifist-desc = You cannot attack or hurt any living beings.
+trait-pacifist-name = Пацифіст
+trait-pacifist-desc = Ви не можете атакувати або завдавати шкоди будь-яким живим істотам.
 
-permanent-blindness-trait-examined = [color=lightblue]{CAPITALIZE(POSS-ADJ($target))} eyes are glassy and unfocused. It doesn't seem like {SUBJECT($target)} can see you well, if at all.[/color]
+permanent-blindness-trait-examined = [color=lightblue]Очі {POSS-ADJ($target)} скляні та розфокусовані. Несхоже, що {SUBJECT($target)} вас добре бачить, якщо взагалі бачить.[/color]
 
-trait-lightweight-name = Lightweight drunk
-trait-lightweight-desc = Alcohol has a stronger effect on you.
+trait-lightweight-name = Слабкий до алкоголю
+trait-lightweight-desc = Алкоголь діє на вас сильніше.
 
-trait-monochromacy-name = Monochromacy
-trait-monochromacy-desc = You are fully colorblind, everything you perceive ranges from blacks to whites.
+trait-monochromacy-name = Монохромазія
+trait-monochromacy-desc = Ви повністю не розрізняєте кольори, все, що ви сприймаєте, знаходиться в діапазоні від чорного до білого.
 
-trait-muted-name = Muted
-trait-muted-desc = You can't speak.
+trait-muted-name = Німота
+trait-muted-desc = Ви не можете говорити.
 
-trait-paracusia-name = Paracusia
-trait-paracusia-desc = You hear sounds that aren't really there.
+trait-paracusia-name = Паракузія
+trait-paracusia-desc = Ви чуєте звуки, яких насправді немає.
 
-trait-unrevivable-name = Unrevivable
-trait-unrevivable-desc = You are unable to be revived by defibrillators.
+trait-unrevivable-name = Невідроджуваний
+trait-unrevivable-desc = Вас неможливо оживити за допомогою дефібриляторів.
 
-trait-accentless-name = Accentless
-trait-accentless-desc = You don't have the accent that your species would usually have.
+trait-accentless-name = Без акценту
+trait-accentless-desc = У вас немає акценту, який зазвичай притаманний вашому виду
 
-trait-frontal-lisp-name = Frontal lisp
-trait-frontal-lisp-desc = You thpeak with a lithp.
+trait-frontal-lisp-name = Фронтальна шепелявість
+trait-frontal-lisp-desc = Ви розмовляєте з шепелявістю.
 
-trait-socialanxiety-name = Stutter
-trait-socialanxiety-desc = You speak with a stutter.
+trait-socialanxiety-name = Заїкання
+trait-socialanxiety-desc = Ви розмовляєте із заїканням.
 
-trait-southern-name = Southern drawl
-trait-southern-desc = You have a different way of speakin'.
+trait-southern-name = Південна вимова
+trait-southern-desc = Ви маєте особливу манеру розмовляти.
 
-trait-snoring-name = Snoring
-trait-snoring-desc = You will snore while sleeping.
+trait-snoring-name = Хропіння
+trait-snoring-desc = Ви будете хропіти, коли спите.
 
-trait-liar-name = Pathological liar
-trait-liar-desc = You can hardly bring yourself to tell the truth. Sometimes you lie anyway.
+trait-liar-name = Патологічний брехун
+trait-liar-desc = Вам важко змусити себе говорити правду. Іноді ви все одно брешете.
 
-trait-german-name = German accent
-trait-german-desc = You seem to come from space Germany.
+trait-german-name = Німецький акцент
+trait-german-desc = Схоже, ви родом з космічної Німеччини.
 
-trait-french-name = French accent
-trait-french-desc = Your accent seems to have a certain «je ne sais quoi».
+trait-french-name = Французький акцент
+trait-french-desc = Ваш акцент, здається, має певне «je ne sais quoi».
 
-trait-spanish-name = Spanish accent
-trait-spanish-desc = Hola señor, donde esta la biblioteca.
+trait-spanish-name = Hola señor, donde esta la biblioteca
+trait-spanish-desc = Іспанський акцент
 
 trait-scottish-name = Scottish accent
 trait-scottish-desc = Ye're speaking like ae proper Scot!
 
-trait-painnumbness-name = Numb
-trait-painnumbness-desc = You lack any sense of feeling pain, being unaware of how hurt you may be.
+trait-painnumbness-name = Оніміння
+trait-painnumbness-desc = У вас відсутнє почуття болю, ви не усвідомлюєте, наскільки можете бути поранені.
 
 trait-hemophilia-name = Hemophilia
 trait-hemophilia-desc = Your body fails to make blood clots.

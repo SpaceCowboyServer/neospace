@@ -1,35 +1,35 @@
 # Generic
-lathe-category-circuitry = Circuitry
-lathe-category-clothing = Clothing
-lathe-category-lights = Lights
-lathe-category-machines = Machines
-lathe-category-parts = Parts
-lathe-category-tools = Tools
-lathe-category-weapons = Weapons
+lathe-category-circuitry = Схеми
+lathe-category-clothing = Одяг
+lathe-category-lights = Світло
+lathe-category-machines = Машини
+lathe-category-parts = Деталі
+lathe-category-tools = Інструменти
+lathe-category-weapons = Зброя
 
 # Biogen
-lathe-category-food = Food
-lathe-category-chemicals = Chemicals
-lathe-category-materials = Materials
+lathe-category-food = Їжа
+lathe-category-chemicals = Хімікати
+lathe-category-materials = Матеріали
 
 # Circuit imprinter
-lathe-category-computers = Computers
-lathe-category-engineering = Engineering
-lathe-category-general = General
-lathe-category-medical = Medical
-lathe-category-research = Research
-lathe-category-security = Security
-lathe-category-service = Service
-lathe-category-supply = Supply
+lathe-category-computers = Комп'ютери
+lathe-category-engineering = Інженерія
+lathe-category-general = Загальне
+lathe-category-medical = Медицина
+lathe-category-research = Дослідження
+lathe-category-security = Безпека
+lathe-category-service = Сервіс
+lathe-category-supply = Постачання
 
 # Cutter
-lathe-category-tiles = Tiles
+lathe-category-tiles = Плитка
 lathe-category-circuit-tile = Circuit
 lathe-category-concrete-tile = Concrete
 lathe-category-dark-tile = Dark
 lathe-category-faux-tile = Faux
 lathe-category-maints-tile = Maints
-lathe-category-marble = Marble
+lathe-category-marble = Мармур
 lathe-category-steel-tile = Steel
 lathe-category-shuttle-tile = Shuttle
 lathe-category-white-tile = White
@@ -39,20 +39,20 @@ lathe-category-precious-tile = Precious
 lathe-category-industrial-tile = Industrial
 
 # Science
-lathe-category-mechs = Mechs
-lathe-category-modules = Modules
-lathe-category-robotics = Robotics
+lathe-category-mechs = Мехи
+lathe-category-modules = Модулі
+lathe-category-robotics = Робототехніка
 
 # Security TechFab
-lathe-category-ammo = Ammo
-lathe-category-boxes = Boxes
-lathe-category-magazines = Magazines
+lathe-category-ammo = Боєприпаси
+lathe-category-boxes = Ящики
+lathe-category-magazines = Магазини
 
 # Uniform
-lathe-category-bedsheets = Bedsheets
-lathe-category-carpets = Carpets
-lathe-category-coats = Coats
-lathe-category-command = Command
-lathe-category-hats = Hats
-lathe-category-jumpsuits = Jumpsuits
-lathe-category-neck = Neck
+lathe-category-bedsheets = Простирадла
+lathe-category-carpets = Килими
+lathe-category-coats = Пальта
+lathe-category-command = Командування
+lathe-category-hats = Капелюхи
+lathe-category-jumpsuits = Комбінезони
+lathe-category-neck = Нашийні аксесуари

@@ -1,7 +1,7 @@
 ﻿cmd-pardon-desc = Pardon somebody's ban.
-cmd-pardon-help = Usage: pardon <ban id>
-cmd-pardon-unable-to-parse = Unable to parse {$id} as a ban id integer.
+cmd-pardon-help = Використання: pardon <id бану>
+cmd-pardon-unable-to-parse = Не вдалося розпізнати {$id} як ціле число ідентифікатора бану.
                              {$help}
-cmd-pardon-already-pardoned = This ban has already been pardoned.
-cmd-pardon-already-pardoned-specific = This ban has already been pardoned by {$admin} in {$time}.
-cmd-pardon-success = Pardoned ban with id {$id}.
+cmd-pardon-already-pardoned = Цей бан вже знято.
+cmd-pardon-already-pardoned-specific = Цей бан вже був знятий {$admin} о {$time}.
+cmd-pardon-success = Знято бан з ідентифікатором {$id}.

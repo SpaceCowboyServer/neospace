@@ -1,4 +1,4 @@
-cmd-setooc-desc = Allows you to enable or disable OOC.
-cmd-setooc-help = Usage: setooc OR setooc [value]
-cmd-setooc-ooc-enabled = OOC chat has been enabled.
-cmd-setooc-ooc-disabled = OOC chat has been disabled.
+cmd-setooc-desc = Дозволяє ввімкнути або вимкнути OOC.
+cmd-setooc-help = Використання: setooc АБО setooc [значення]
+cmd-setooc-ooc-enabled = OOC чат було увімкнено.
+cmd-setooc-ooc-disabled = OOC чат було вимкнено.

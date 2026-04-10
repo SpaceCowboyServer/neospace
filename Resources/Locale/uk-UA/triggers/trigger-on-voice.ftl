@@ -1,14 +1,14 @@
-trigger-on-voice-examine = The display reads: "{$keyphrase}"
-trigger-on-voice-uninitialized = The display reads: Uninitialized...
+trigger-on-voice-examine = На дисплеї написано: "{$keyphrase}"
+trigger-on-voice-uninitialized = На дисплеї написано: Неініціалізовано...
 
-trigger-on-voice-record = Record
-trigger-on-voice-stop = Stop
-trigger-on-voice-clear = Clear recording
+trigger-on-voice-record = Записати
+trigger-on-voice-stop = Зупинити
+trigger-on-voice-clear = Стерти запис
 trigger-on-voice-default = Reset to default
 
-trigger-on-voice-start-recording = Started recording.
-trigger-on-voice-stop-recording = Stopped recording.
-trigger-on-voice-record-failed-too-long = Message too long, try again.
-trigger-on-voice-record-failed-too-short = Message too short, try again.
-trigger-on-voice-recorded = Recorded successfully!
+trigger-on-voice-start-recording = Запис розпочато.
+trigger-on-voice-stop-recording = Запис зупинено.
+trigger-on-voice-record-failed-too-long = Повідомлення задовге, спробуйте ще раз.
+trigger-on-voice-record-failed-too-short = Повідомлення закоротке, спробуйте ще раз.
+trigger-on-voice-recorded = Успішно записано!
 trigger-on-voice-set-default = Set to default keyphrase: "{$keyphrase}"

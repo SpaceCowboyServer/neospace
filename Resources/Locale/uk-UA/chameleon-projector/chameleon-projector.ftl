@@ -1,4 +1,4 @@
-chameleon-projector-inside-container = There's no room to scan that!
-chameleon-projector-invalid = You can't disguise as that!
-chameleon-projector-success = Projected new disguise.
-chameleon-projector-set-disguise = Set Disguise
+chameleon-projector-inside-container = Немає місця для сканування!
+chameleon-projector-invalid = Ви не можете замаскуватися під це!
+chameleon-projector-success = Проектується нове маскування.
+chameleon-projector-set-disguise = Встановити маскування

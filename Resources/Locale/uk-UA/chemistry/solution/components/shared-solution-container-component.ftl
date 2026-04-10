@@ -1,37 +1,36 @@
-shared-solution-container-component-on-examine-main-text = It contains {INDEFINITE($desc)} [color={$color}]{$desc}[/color] { $chemCount ->
-    [1] chemical.
-   *[other] mixture of chemicals.
+shared-solution-container-component-on-examine-main-text = Містить {INDEFINITE($desc)} [color={$color}]{$desc}[/color] { $chemCount ->
+    [1] хімічну речовину.
+   *[other] суміш хімічних речовин.
     }
 
-examinable-solution-has-recognizable-chemicals = You can recognize {$recognizedString} in the solution.
+examinable-solution-has-recognizable-chemicals = Ти впізнаєш {$recognizedString} у розчині.
 examinable-solution-recognized = [color={$color}]{$chemical}[/color]
 
-examinable-solution-on-examine-volume = The contained solution is { $fillLevel ->
-    [exact] holding [color=white]{$current}/{$max}u[/color].
+examinable-solution-on-examine-volume = Вміст розчину { $fillLevel ->
+    [exact] становить [color=white]{$current}/{$max}u[/color].
    *[other] [bold]{ -solution-vague-fill-level(fillLevel: $fillLevel) }[/bold].
 }
 
-examinable-solution-on-examine-volume-no-max = The contained solution is { $fillLevel ->
-    [exact] holding [color=white]{$current}u[/color].
+examinable-solution-on-examine-volume-no-max = Вміст розчину { $fillLevel ->
+    [exact] становить [color=white]{$current}u[/color].
    *[other] [bold]{ -solution-vague-fill-level(fillLevel: $fillLevel) }[/bold].
 }
 
-examinable-solution-on-examine-volume-puddle = The puddle is { $fillLevel ->
+examinable-solution-on-examine-volume-puddle = Калюжа { $fillLevel ->
     [exact] [color=white]{$current}u[/color].
-    [full] huge and overflowing!
-    [mostlyfull] huge and overflowing!
-    [halffull] deep and flowing.
-    [halfempty] very deep.
-   *[mostlyempty] pooling together.
-    [empty] forming multiple small pools.
+    [full] величезна та переливається!
+    [mostlyfull] величезна та переливається!
+    [halffull] глибока та тече.
+    [halfempty] дуже глибока.
+   *[mostlyempty] збирається докупи.
+    [empty] утворює кілька малих калюж.
 }
 
--solution-vague-fill-level =
-    { $fillLevel ->
-        [full] [color=white]Full[/color]
-        [mostlyfull] [color=#DFDFDF]Mostly Full[/color]
-        [halffull] [color=#C8C8C8]Half Full[/color]
-        [halfempty] [color=#C8C8C8]Half Empty[/color]
-        [mostlyempty] [color=#A4A4A4]Mostly Empty[/color]
-       *[empty] [color=gray]Empty[/color]
+-solution-vague-fill-level = { $fillLevel ->
+        [full] [color=white]Повне[/color]
+        [mostlyfull] [color=#DFDFDF]Майже повне[/color]
+        [halffull] [color=#C8C8C8]Наполовину повне[/color]
+        [halfempty] [color=#C8C8C8]Наполовину порожнє[/color]
+        [mostlyempty] [color=#A4A4A4]Майже порожнє[/color]
+       *[empty] [color=gray]Порожнє[/color]
     }

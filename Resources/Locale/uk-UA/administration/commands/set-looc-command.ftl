@@ -1,4 +1,4 @@
-cmd-setlooc-description = Allows you to enable or disable LOOC.
-cmd-setlooc-help = Usage: setlooc OR setlooc [value]
-cmd-setlooc-looc-enabled = LOOC chat has been enabled.
-cmd-setlooc-looc-disabled = LOOC chat has been disabled.
+cmd-setlooc-description = Дозволяє ввімкнути або вимкнути LOOC.
+cmd-setlooc-help = Використання: setlooc АБО setlooc [значення]
+cmd-setlooc-looc-enabled = LOOC чат було увімкнено.
+cmd-setlooc-looc-disabled = LOOC чат було вимкнено.

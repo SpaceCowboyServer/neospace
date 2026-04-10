@@ -1,4 +1,4 @@
-item-toggle-activate = Activate
-item-toggle-deactivate = Deactivate
+item-toggle-activate = Активувати
+item-toggle-deactivate = Деактивувати
 
-item-toggle-size-fail = Doesn't fit.
+item-toggle-size-fail = Не влазить.

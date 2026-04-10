@@ -1,6 +1,6 @@
 ﻿cmd-forcemap-desc = Forces the game to start with a given map next round.
-cmd-forcemap-help = Usage: forcemap <map ID>
-cmd-forcemap-success = Forced the game to start with map { $map } next round.
-cmd-forcemap-cleared = Cleared the forced map setting.
-cmd-forcemap-map-not-found = No eligible map exists with name { $map }.
-cmd-forcemap-hint = <map ID>
+cmd-forcemap-help = Використання: forcemap <ID карти>
+cmd-forcemap-success = Примусово запущено гру з картою { $map } в наступному раунді.
+cmd-forcemap-cleared = Налаштування примусової карти очищено.
+cmd-forcemap-map-not-found = Не існує придатної карти з назвою { $map }.
+cmd-forcemap-hint = <ID карти>

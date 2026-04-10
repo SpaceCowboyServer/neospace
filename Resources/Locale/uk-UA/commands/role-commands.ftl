@@ -1,12 +1,12 @@
 ﻿cmd-addrole-desc = Adds a role to a player's mind.
-cmd-addrole-help = Usage: addrole <session ID> <role>
-cmd-addrole-mind-not-found = Can't find that mind.
-cmd-addrole-role-not-found = Can't find that role.
-cmd-addrole-mind-already-has-role = Mind already has that role.
+cmd-addrole-help = Використання: addrole <ID сесії> <роль>
+cmd-addrole-mind-not-found = Не вдалося знайти цей розум.
+cmd-addrole-role-not-found = Не вдалося знайти цю роль.
+cmd-addrole-mind-already-has-role = Розум вже має цю роль.
 
-cmd-listroles-desc = List all available roles.
-cmd-listroles-help = Usage: listroles
+cmd-listroles-desc = Перелічити всі доступні ролі.
+cmd-listroles-help = Використання: listroles
 
-cmd-rmrole-desc = Removes a role from a player's mind.
-cmd-rmrole-help = Usage: rmrole <session ID> <Role Type>
-                  The role type is the actual C# type name.
+cmd-rmrole-desc = Видаляє роль з розуму гравця.
+cmd-rmrole-help = Використання: rmrole <ID сесії> <Тип ролі>
+                  Тип ролі - це фактична назва типу C#.

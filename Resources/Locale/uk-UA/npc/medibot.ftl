@@ -1,7 +1,7 @@
-medibot-start-inject = Hold still, please.
-medibot-finish-inject = All done.
+medibot-start-inject = Не ворушіться, будь ласка. Ввожу ін'єкцію.
+medibot-finish-inject = Готово.
 
-medibot-target-dead = The patient is dead.
-medibot-target-healthy = The patient is already healthy.
-medibot-target-injected = The patient was injected.
-medibot-recently-injected = The patient was recently injected.
+medibot-target-dead = Пацієнт мертвий.
+medibot-target-healthy = Пацієнт вже здоровий.
+medibot-target-injected = Пацієнту введено ін'єкцію.
+medibot-recently-injected = Пацієнту нещодавно ввели ін'єкцію.

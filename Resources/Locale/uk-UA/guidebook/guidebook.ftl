@@ -1,10 +1,9 @@
-guidebook-window-title = Guidebook
-guidebook-placeholder-text = Select an entry.
-guidebook-placeholder-text-2 = If you're new, head over to "New? Start here!"
-guidebook-filter-placeholder-text = Filter items
+guidebook-window-title = Довідник
+guidebook-placeholder-text = Виберіть запис.
+guidebook-placeholder-text-2 = Якщо ви новачок, виберіть самий верхній запис, щоб почати
+guidebook-filter-placeholder-text = Фільтрувати предмети
 
-guidebook-parser-error = Parser Error
-guidebook-error-message = Error Message
-
-guidebook-monkey-unspin = Unspin Monkey
-guidebook-monkey-disco = Disco Monkey
+guidebook-parser-error = Помилка парсера
+guidebook-error-message = Повідомлення про помилку
+guidebook-monkey-unspin = Відкрутити Мавпу
+guidebook-monkey-disco = Диско Мавпа

@@ -1,8 +1,8 @@
 ﻿### Strings for link buttons shown in the launcher's server description.
 
-info-link-discord = Discord
-info-link-forum = Forum
+info-link-discord = Діскорд
+info-link-forum = Форум
 info-link-github = GitHub
-info-link-website = Website
-info-link-wiki = Wiki
+info-link-website = Вебсайт
+info-link-wiki = Вікі
 info-link-telegram = Telegram

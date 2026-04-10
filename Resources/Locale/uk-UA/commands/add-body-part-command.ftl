@@ -1,2 +1,2 @@
 ﻿cmd-addbodypart-desc = Adds a given entity to a containing body.
-cmd-addbodypart-help = Usage: addbodypart <entity uid> <body uid> <part slot> <part type>
+cmd-addbodypart-help = Використання: addbodypart <uid сутності> <uid тіла> <слот частини> <тип частини>

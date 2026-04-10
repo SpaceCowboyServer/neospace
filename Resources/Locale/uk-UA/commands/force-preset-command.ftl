@@ -1,6 +1,5 @@
 ﻿cmd-forcepreset-desc = Forces a specific game preset to start for the current lobby.
-cmd-forcepreset-help = Usage: forcepreset <preset>
-cmd-forcepreset-preround-lobby-only = This can only be executed while the game is in the pre-round lobby.
-cmd-forcepreset-no-preset-found = No preset exists with name {$preset}.
-cmd-forcepreset-success = Forced the game to start with preset {$preset}.
-cmd-forcepreset-hint = <preset>
+cmd-forcepreset-help = Використання: forcepreset <ID пресету>
+cmd-forcepreset-preround-lobby-only = Це можна виконати лише тоді, коли гра знаходиться в лобі перед раундом.
+cmd-forcepreset-no-preset-found = Не існує пресету з назвою {$preset}.cmd-forcepreset-success = Примусово встановлено ігровий режим на { $preset } в наступному раунді.
+cmd-forcepreset-hint = <ID пресету>

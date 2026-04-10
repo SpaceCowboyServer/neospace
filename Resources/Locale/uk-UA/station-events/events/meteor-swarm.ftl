@@ -1,9 +1,9 @@
 ﻿station-event-meteor-swarm-start-announcement = Meteors have been detected on collision course with the station.
-station-event-meteor-swarm-end-announcement = The meteor swarm has passed. Please return to your stations.
+station-event-meteor-swarm-end-announcement = Станція вийшла з метеорного поясу, можете повертатись на свої робочі місця!
 
-station-event-space-dust-start-announcement = The station is passing through a debris cloud, expect minor damage to external fittings and fixtures.
-station-event-meteor-urist-start-announcement = The station is colliding with an unidentified swarm of debris. Please stay calm and do not listen to them.
-station-event-meteor-cow-start-announcement = The station is colliding with an unidentified swarm of debris. Warning: Do not feed them wheat. Moo-ve away from exterior sections.
-station-event-meteor-clown-start-announcement = The station is colliding with an unidentified swarm of debris. HONK! Evacuate laughing gas storage immediately.
-station-event-meteor-potato-start-announcement = The station is colliding with an unidentified swarm of debris. High starch content detected.
-station-event-fun-swarm-start-announcement = The station is colliding with an unidentified swarm of debris. Please panic appropriately.
+station-event-space-dust-start-announcement = Станція проходить через хмару уламків, очікуйте незначних пошкоджень зовнішніх елементів та обладнання.
+station-event-meteor-urist-start-announcement = Станція зіткнулася з невідомим роєм уламків. Будь ласка, зберігайте спокій і не слухайте їх.
+station-event-meteor-cow-start-announcement = Станція зіштовхується з невідомим роєм уламків. Попередження: Не годуйте їх пшеницею. Му-у-у-ходьте подалі від зовнішніх секцій.
+station-event-meteor-clown-start-announcement = Станція зіштовхується з невідомим роєм уламків. БІП! Негайно евакуюйтеся зі сховища звеселяючого газу.
+station-event-meteor-potato-start-announcement = Станція зіштовхується з невідомим роєм уламків. Виявлено високий вміст крохмалю.
+station-event-fun-swarm-start-announcement = Станція зіштовхується з невідомим роєм уламків. Будь ласка, панікуйте належним чином.

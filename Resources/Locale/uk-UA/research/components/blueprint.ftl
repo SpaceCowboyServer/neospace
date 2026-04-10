@@ -1,2 +1,2 @@
-blueprint-receiver-popup-insert = { CAPITALIZE(THE($user)) } inserted { THE($blueprint) } into { THE($receiver) }.
-blueprint-receiver-popup-recipe-exists = The same blueprint was already inserted!
+blueprint-receiver-popup-insert = { CAPITALIZE(THE($user)) } вставив { THE($blueprint) } у { THE($receiver) }.
+blueprint-receiver-popup-recipe-exists = Таку саму схему вже було вставлено!

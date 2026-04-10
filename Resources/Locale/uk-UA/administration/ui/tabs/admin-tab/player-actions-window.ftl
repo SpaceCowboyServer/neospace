@@ -1,8 +1,8 @@
-admin-player-actions-window-ban = Banning panel
-admin-player-actions-window-admin-ghost = Admin Ghost
-admin-player-actions-window-permissions = Permissions Panel
-admin-player-actions-window-announce = Announce
-admin-player-actions-window-shuttle = (Re)call Shuttle
-admin-player-actions-window-admin-logs = Admin Logs
-admin-player-actions-window-admin-fax = Admin Fax
-admin-player-actions-window-admin-chat = Admin Chat
+admin-player-actions-window-ban = Панель бану
+admin-player-actions-window-admin-ghost = Привид Адміністратора
+admin-player-actions-window-permissions = Панель Дозволів
+admin-player-actions-window-announce = Оголосити
+admin-player-actions-window-shuttle = (Пере)виклик Шаттлу
+admin-player-actions-window-admin-logs = Журнали Адміністратора
+admin-player-actions-window-admin-fax = Факс Адміністратора
+admin-player-actions-window-admin-chat = Адмін Чат

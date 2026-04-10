@@ -1,264 +1,263 @@
-stack-steel = steel
-stack-bananium = bananium
-stack-glass = glass
-stack-plasteel = plasteel
-stack-brass = brass
-stack-plastic = plastic
-stack-silver = silver
-stack-gold = gold
-stack-reinforced-glass = reinforced glass
-stack-plasma-glass = plasma glass
-stack-uranium = uranium
-stack-uranium-glass = uranium glass
-stack-clockwork-glass = clockwork glass
-stack-reinforced-plasma-glass = reinforced plasma glass
-stack-reinforced-uranium-glass = reinforced uranium glass
-stack-gunpowder = gunpowder
-stack-cardboard = cardboard
+stack-steel = сталь
+stack-bananium = бананій
+stack-glass = скло
+stack-plasteel = пласталь
+stack-brass = латунь
+stack-plastic = пластик
+stack-silver = срібло
+stack-gold = золото
+stack-reinforced-glass = армоване скло
+stack-plasma-glass = плазмове скло
+stack-uranium = уран
+stack-uranium-glass = уранове скло
+stack-clockwork-glass = годинникове скло
+stack-reinforced-plasma-glass = армоване плазмове скло
+stack-reinforced-uranium-glass = армоване уранове скло
+stack-gunpowder = порох
+stack-cardboard = картон
 
 stack-bones = {$amount ->
-    [1] bone
-    *[other] bones
+    [1] кістка
+    *[other] кістки
 }
 stack-cloth = {$amount ->
-    [1] cloth
-    *[other] cloths
+    [1] тканина
+    *[other] тканини
 }
 stack-lv-cable = {$amount ->
-    [1] lv cable
-    *[other] lv cables
+    [1] нн кабель
+    *[other] нн кабелі
 }
 stack-mv-cable = {$amount ->
-    [1] mv cable
-    *[other] mv cables
+    [1] сн кабель
+    *[other] сн кабелі
 }
 stack-hv-cable = {$amount ->
-    [1] hv cable
-    *[other] hv cables
+    [1] вн кабель
+    *[other] вн кабелі
 }
 stack-explosive-cord = {$amount ->
     [1] explosive cord
     *[other] explosive cords
 }
 stack-wood-plank = {$amount ->
-    [1] wood plank
-    *[other] wood planks
+    [1] дерев'яна дошка
+    *[other] дерев'яні дошки
 }
 stack-durathread = {$amount ->
-    [1] durathread
-    *[other] durathreads
+    [1] дюратканина
+    *[other] дюратканини
 }
 stack-rods = {$amount ->
-    [1] rod
-    *[other] rods
+    [1] стрижень
+    *[other] стрижні
 }
 stack-meat-sheet = {$amount ->
-    [1] meat sheet
-    *[other] meat sheets
+    [1] лист м'яса
+    *[other] листи м'яса
 }
-stack-space-carp-tooth = space carp {$amount ->
-    [1] tooth
-    *[other] teeth
+stack-space-carp-tooth = космічний короп {$amount ->
+    [1] зуб
+    *[other] зуби
 }
 stack-paper = {$amount ->
-    [1] paper
-    *[other] papers
+    [1] папір
+    *[other] папери
 }
 stack-diamond = {$amount ->
-    [1] diamond
-    *[other] diamonds
+    [1] діамант
+    *[other] діаманти
 }
 stack-silk = {$amount ->
-    [1] silk
-    *[other] silks
+    [1] шовк
+    *[other] шовки
 }
 stack-cotton = {$amount ->
-    [1] cotton
-    *[other] cottons
+    [1] бавовна
+    *[other] бавовни
 }
-stack-artifact-fragment = artifact {$amount ->
-    [1] fragment
-    *[other] fragments
+stack-artifact-fragment = {$amount ->
+    [1] фрагмент
+    *[other] фрагменти
 }
 
 # best materials
-stack-ground-tobacco = ground tobacco
-stack-ground-cannabis = ground cannabis
-stack-ground-rainbow-cannabis = ground rainbow cannabis
-stack-dried-tobacco-leaves = dried tobacco leaves
-stack-dried-cannabis-leaves = dried cannabis leaves
-stack-dried-rainbow-cannabis-leaves = dried rainbow cannabis leaves
+stack-ground-tobacco = мелений тютюн
+stack-ground-cannabis = мелений канабіс
+stack-ground-rainbow-cannabis = мелений райдужний канабіс
+stack-dried-tobacco-leaves = сушене листя тютюну
+stack-dried-cannabis-leaves = сушене листя канабісу
+stack-dried-rainbow-cannabis-leaves = сушене листя райдужного канабісу
 
-stack-cigarette-filter = cigarette {$amount ->
-    [1] filter
-    *[other] filters
+stack-cigarette-filter = {$amount ->
+    [1] фільтр
+    *[other] фільтри
 }
-stack-rolling-paper = rolling {$amount ->
-    [1] paper
-    *[other] papers
+stack-rolling-paper = {$amount ->
+    [1] папір
+    *[other] папери
 }
 
-stack-fulton = fulton
-stack-credit = speso
-stack-plasma = plasma
-stack-biomass = biomass
-stack-pyrotton = pyrotton
-stack-sharkminnow-tooth = sharkminnow tooth
-stack-goliath-hide = goliath hide
-stack-telecrystal = telecrystal
-stack-gold-ore = gold ore
-stack-rough-diamond = rough diamond
-stack-iron-ore = iron ore
-stack-plasma-ore = plasma ore
-stack-silver-ore = silver ore
-stack-space-quartz = space quartz
-stack-uranium-ore = uranium ore
-stack-bananium-ore = bananium ore
-stack-coal = coal
-stack-salt = salt
-stack-inflatable-wall = inflatable wall
-stack-inflatable-door = inflatable door
-stack-ointment = ointment
-stack-aloe-cream = aloe cream
-stack-gauze = gauze
-stack-brutepack = brutepack
-stack-bloodpack = bloodpack
-stack-medicated-suture = medicated-suture
-stack-regenerative-mesh = regenerative-mesh
-stack-micro-manipulator = modular machine part
-stack-pancake = pancake
-stack-blueberry-pancake = blueberry pancake
-stack-chocolate-chip-pancake = chocolate chip pancake
-stack-pizza-box = pizza box
-stack-dark-tile = dark tile
-stack-dark-steel-diagonal-mini-tile = dark steel diagonal mini tile
-stack-dark-steel-diagonal-tile = dark steel diagonal tile
-stack-dark-steel-herringbone = dark steel herringbone
+stack-fulton = фултон
+stack-credit = спесо
+stack-plasma = плазма
+stack-biomass = біомаса
+stack-pyrotton = піротон
+stack-sharkminnow-tooth = зуб акулоголова
+stack-goliath-hide = шкіра голіафа
+stack-telecrystal = телекристал
+stack-gold-ore = золота руда
+stack-rough-diamond = необроблений алмаз
+stack-iron-ore = залізна руда
+stack-plasma-ore = форон
+stack-silver-ore = срібна руда
+stack-space-quartz = космічний кварц
+stack-uranium-ore = уранова руда
+stack-bananium-ore = бананієва руда
+stack-coal = вугілля
+stack-salt = сіль
+stack-inflatable-wall = надувна стіна
+stack-inflatable-door = надувні двері
+stack-ointment = мазь
+stack-aloe-cream = крем з алое
+stack-gauze = марля
+stack-brutepack = брутпак
+stack-bloodpack = пакет крові
+stack-medicated-suture = медичний шов
+stack-regenerative-mesh = регенеративна сітка
+stack-micro-manipulator = мікроманіпулятор
+stack-pancake = млинець
+stack-blueberry-pancake = чорничний млинець
+stack-chocolate-chip-pancake = млинець з шоколадною крихтою
+stack-pizza-box = коробка для піци
+stack-dark-tile = темна плитка
+stack-dark-steel-diagonal-mini-tile = діагональна міні-плитка з темної сталі
+stack-dark-steel-diagonal-tile = діагональна плитка з темної сталі
+stack-dark-steel-herringbone = ялинка з темної сталі
 stack-dark-steel-horizontal-slats-tile-bordered = dark steel bordered horizontal slat tile
-stack-dark-steel-mini-tile = dark steel mini tile
-stack-dark-steel-mono-tile = dark steel mono tile
-stack-dark-steel-pavement = dark steel pavement
-stack-dark-steel-vertical-pavement = dark steel vertical pavement
+stack-dark-steel-mini-tile = міні-плитка з темної сталі
+stack-dark-steel-mono-tile = моноплітка з темної сталі
+stack-dark-steel-pavement = бруківка з темної сталі
+stack-dark-steel-vertical-pavement = вертикальна бруківка з темної сталі
 stack-dark-steel-vertical-slats-tile-bordered = dark steel bordered vertical slat tile
 stack-dark-steel-slats-tile-continuous = dark steel continuous slat tile
-stack-offset-dark-steel-tile = offset dark steel tile
-stack-offset-steel-tile = offset steel tile
-stack-steel-diagonal-mini-tile = steel diagonal mini tile
-stack-steel-diagonal-tile = steel diagonal tile
-stack-steel-herringbone = steel herringbone
+stack-offset-dark-steel-tile = зміщена плитка з темної сталі
+stack-offset-steel-tile = зміщена сталева плитка
+stack-steel-diagonal-mini-tile = діагональна міні-плитка зі сталі
+stack-steel-diagonal-tile = діагональна сталева плитка
+stack-steel-herringbone = сталевий візерунок «ялинка»
 stack-steel-horizontal-slats-tile-bordered = steel bordered horizontal slat tile
-stack-steel-mini-tile = steel mini tile
-stack-steel-mono-tile = steel mono tile
-stack-steel-pavement = steel pavement
-stack-steel-vertical-pavement = steel vertical pavement
+stack-steel-mini-tile = сталева міні-плитка
+stack-steel-mono-tile = сталева моноплітка
+stack-steel-pavement = сталева бруківка
+stack-steel-vertical-pavement = вертикальна сталева бруківка
 stack-steel-vertical-slats-tile-bordered = steel bordered vertical slat tile
 stack-steel-slats-tile-continuous = steel continuous slat tile
-stack-white-tile = white tile
-stack-offset-white-steel-tile = offset white steel tile
-stack-white-steel-diagonal-mini-tile = white steel diagonal mini tile
-stack-white-steel-diagonal-tile = white steel diagonal tile
-stack-white-steel-herringbone = white steel herringbone
+stack-white-tile = біла плитка
+stack-offset-white-steel-tile = зміщена плитка з білої сталі
+stack-white-steel-diagonal-mini-tile = діагональна міні-плитка з білої сталі
+stack-white-steel-diagonal-tile = діагональна плитка з білої сталі
+stack-white-steel-herringbone = візерунок «ялинка» з білої сталі
 stack-white-steel-horizontal-slats-tile-bordered = white steel bordered horizontal slat tile
-stack-white-steel-mini-tile = white steel mini tile
-stack-white-steel-mono-tile = white steel mono tile
-stack-white-steel-pavement = white steel pavement
-stack-white-steel-vertical-pavement = white steel vertical pavement
+stack-white-steel-mini-tile = міні-плитка з білої сталі
+stack-white-steel-mono-tile = моноплітка з білої сталі
+stack-white-steel-pavement = бруківка з білої сталі
+stack-white-steel-vertical-pavement = вертикальна бруківка з білої сталі
 stack-white-steel-vertical-slats-tile-bordered = white steel bordered vertical slat tile
 stack-white-steel-slats-tile-continuous = white steel continuous slat tile
-stack-steel-dark-checker-tile = steel dark checker tile
-stack-steel-light-checker-tile = steel light checker tile
-stack-steel-tile = steel tile
-stack-wood-floor = wood floor
-stack-techmaint-floor = techmaint floor
-stack-techmaint-floor-dark = dark techmaint floor
-stack-freezer-tile = freezer tile
-stack-showroom-tile = showroom tile
-stack-green-circuit-floor = green-circuit floor
-stack-gold-floor = gold floor
-stack-mono-tile = mono tile
-stack-filled-brass-plate = filled brass plate
-stack-smooth-brass-plate = smooth brass plate
-stack-linoleum-floor = linoleum floor
-stack-hydro-tile = hydro tile
-stack-lime-tile = lime tile
-stack-dirty-tile = dirty tile
-stack-white-shuttle-tile = white shuttle tile
-stack-blue-shuttle-tile = blue shuttle tile
-stack-orange-shuttle-tile = orange shuttle tile
-stack-purple-shuttle-tile = purple shuttle tile
-stack-red-shuttle-tile = red shuttle tile
-stack-grey-shuttle-tile = grey shuttle tile
-stack-black-shuttle-tile = black shuttle tile
-stack-eighties-floor-tile = eighties floor tile
-stack-blue-arcade-tile = blue arcade tile
-stack-red-arcade-tile = red arcade tile
-stack-red-carpet-tile = red carpet tile
-stack-black-carpet-tile = black carpet tile
-stack-blue-carpet-tile = blue carpet tile
-stack-green-carpet-tile = green carpet tile
-stack-orange-carpet-tile = orange carpet tile
-stack-skyblue-carpet-tile = skyblue carpet tile
-stack-purple-carpet-tile = purple carpet tile
-stack-pink-carpet-tile = pink carpet tile
-stack-cyan-carpet-tile = cyan carpet tile
-stack-white-carpet-tile = white carpet tile
-stack-clown-carpet-tile = clown carpet tile
-stack-office-carpet-tile = office carpet tile
-stack-boxing-ring-tile = boxing ring tile
-stack-gym-floor-tile = gym floor tile
-stack-elevator-shaft-tile = elevator shaft tile
-stack-rock-vault-tile = rock vault tile
-stack-blue-floor-tile = blue floor tile
-stack-mining-floor-tile = mining floor tile
-stack-dark-mining-floor-tile = dark mining floor tile
-stack-light-mining-floor-tile = light mining floor tile
-stack-item-bar-floor-tile = item bar floor tile
-stack-clown-floor-tile = clown floor tile
-stack-mime-floor-tile = mime floor tile
-stack-kitchen-floor-tile = kitchen floor tile
-stack-laundry-floor-tile = laundry floor tile
-stack-concrete-tile = concrete tile
-stack-concrete-mono-tile = concrete mono tile
-stack-concrete-smooth = concrete smooth
-stack-gray-concrete-tile = gray concrete tile
-stack-gray-concrete-mono-tile = gray concrete mono tile
-stack-gray-concrete-smooth = gray concrete smooth
-stack-old-concrete-tile = old concrete tile
-stack-old-concrete-mono-tile = old concrete mono tile
-stack-old-concrete-smooth = old concrete smooth
+stack-steel-dark-checker-tile = сталева темна шахова плитка
+stack-steel-light-checker-tile = сталева світла шахова плитка
+stack-steel-tile = сталева плитка
+stack-wood-floor = дерев'яна підлога
+stack-techmaint-floor = технічна підлога
+stack-techmaint-floor-dark = темна підлога техобслуговування
+stack-freezer-tile = морозильна плитка
+stack-showroom-tile = виставкова плитка
+stack-green-circuit-floor = підлога з зелених схем
+stack-gold-floor = золота підлога
+stack-mono-tile = моноплітка
+stack-filled-brass-plate = заповнена латунна плита
+stack-smooth-brass-plate = гладка латунна плита
+stack-linoleum-floor = лінолеумна підлога
+stack-hydro-tile = гідроплитка
+stack-lime-tile = вапняна плитка
+stack-dirty-tile = брудна плитка
+stack-white-shuttle-tile = біла плитка шатла
+stack-blue-shuttle-tile = синя плитка шатла
+stack-orange-shuttle-tile = помаранчева плитка шатла
+stack-purple-shuttle-tile = фіолетова плитка шатла
+stack-red-shuttle-tile = червона плитка шатла
+stack-grey-shuttle-tile = сіра плитка шатла
+stack-black-shuttle-tile = чорна плитка шатла
+stack-eighties-floor-tile = підлогова плитка 80-х
+stack-blue-arcade-tile = синя аркадна плитка
+stack-red-arcade-tile = червона аркадна плитка
+stack-red-carpet-tile = червона килимова плитка
+stack-black-carpet-tile = чорна килимова плитка
+stack-blue-carpet-tile = синя килимова плитка
+stack-green-carpet-tile = зелена килимова плитка
+stack-orange-carpet-tile = помаранчева килимова плитка
+stack-skyblue-carpet-tile = блакитна килимова плитка
+stack-purple-carpet-tile = фіолетова килимова плитка
+stack-pink-carpet-tile = рожева килимова плитка
+stack-cyan-carpet-tile = блакитно-зелена килимова плитка
+stack-white-carpet-tile = біла килимова плитка
+stack-clown-carpet-tile = клоунська килимова плитка
+stack-office-carpet-tile = офісна килимова плитка
+stack-boxing-ring-tile = плитка боксерського рингу
+stack-gym-floor-tile = підлогова плитка спортзалу
+stack-elevator-shaft-tile = плитка ліфтової шахти
+stack-rock-vault-tile = плитка кам'яного сховища
+stack-blue-floor-tile = синя підлогова плитка
+stack-mining-floor-tile = шахтарська підлогова плитка
+stack-dark-mining-floor-tile = темна шахтарська підлогова плитка
+stack-light-mining-floor-tile = світла шахтарська підлогова плитка
+stack-item-bar-floor-tile = підлогова плитка бару
+stack-clown-floor-tile = клоунська підлогова плитка
+stack-mime-floor-tile = мімська підлогова плитка
+stack-kitchen-floor-tile = кухонна підлогова плитка
+stack-laundry-floor-tile = підлогова плитка пральні
+stack-concrete-tile = бетонна плитка
+stack-concrete-mono-tile = бетонна моноплітка
+stack-concrete-smooth = гладкий бетон
+stack-gray-concrete-tile = сіра бетонна плитка
+stack-gray-concrete-mono-tile = сіра бетонна моноплітка
+stack-gray-concrete-smooth = сірий гладкий бетон
+stack-old-concrete-tile = стара бетонна плитка
+stack-old-concrete-mono-tile = стара бетонна моноплітка
+stack-old-concrete-smooth = старий гладкий бетон
 stack-ironsand-concrete-tile = ironsand concrete tile
 stack-ironsand-concrete-mono-tile = ironsand concrete mono tile
 stack-ironsand-concrete-smooth = ironsand concrete smooth
-stack-silver-floor-tile = silver floor tile
-stack-bcircuit-floor-tile = bcircuit floor tile
-stack-grass-floor-tile = grass floor tile
-stack-grass-jungle-floor-tile = grass jungle floor tile
-stack-snow-floor-tile = snow floor tile
-stack-wood-patter-floor = wood pattern floor
-stack-flesh-floor = flesh floor
-stack-steel-maint-floor = steel maint floor
-stack-grating-maint-floor = grating maint floor
-stack-web-tile = web tile
-stack-astro-grass-floor = astro-grass floor
+stack-silver-floor-tile = срібна підлогова плитка
+stack-bcircuit-floor-tile = підлогова плитка з синіми схемами
+stack-grass-floor-tile = трав'яна підлогова плитка
+stack-grass-jungle-floor-tile = трав'яна підлогова плитка джунглів
+stack-snow-floor-tile = снігова підлогова плитка
+stack-wood-patter-floor = дерев'яна візерункова підлога
+stack-flesh-floor = плотська підлога
+stack-steel-maint-floor = сталева технічна підлога
+stack-grating-maint-floor = решітчаста технічна підлога
+stack-web-tile = павутинна плитка
+stack-astro-grass-floor = астро-трав'яна підлога
 stack-dark-astro-grass-floor = dark astro-grass floor
 stack-light-astro-grass-floor = light astro-grass floor
-stack-mowed-astro-grass-floor = mowed astro-grass floor
-stack-jungle-astro-grass-floor = jungle astro-grass floor
-stack-astro-ice-floor = astro-ice floor
-stack-astro-snow-floor = astro-snow floor
-stack-large-wood-floor = large wood floor
-stack-red-circuit-floor = red-circuit floor
-stack-asteroid-astro-sand-floor = asteroid astro-sand floor
+stack-mowed-astro-grass-floor = скошена астро-трав'яна підлога
+stack-jungle-astro-grass-floor = астро-трав'яна підлога джунглів
+stack-astro-ice-floor = астро-льодова підлога
+stack-astro-snow-floor = астро-снігова підлога
+stack-large-wood-floor = велика дерев'яна підлога
+stack-red-circuit-floor = підлога з червоних схем
+stack-asteroid-astro-sand-floor = астро-піщана підлога астероїда
 stack-desert-astro-sand-floor = desert astro-sand floor
-stack-xeno-floor = xeno floor
-stack-xeno-steel = xeno steel tile
-stack-xeno-steel-corner = xeno steel corner tile
+stack-xeno-floor = ксенопідлога
+stack-xeno-steel = ксеносталева плитка
+stack-xeno-steel-corner = кутова ксеносталева плитка
 stack-xenoborg = xenoborg tile
-stack-xeno-maint = xeno techmaint
-stack-dark-squiggly = dark steel squiggly tile
-stack-white-marble-floor = white marble floor
-stack-dark-marble-floor = dark marble floor
-stack-plasma-marble-floor = plasmarble floor
-stack-uranium-marble-floor = uranium marble floor
-stack-astro-ironsand-floor = astro-ironsand floor
+stack-xeno-maint = ксенотехнічне обслуговування
+stack-dark-squiggly = темна сталева хвиляста плитка
+stack-white-marble-floor = підлога з білого мармуру
+stack-dark-marble-floor = підлога з темного мармуру
+stack-plasma-marble-floor = плазмармурова підлога
+stack-uranium-marble-floor = уранова мармурова підлогаstack-astro-ironsand-floor = astro-ironsand floor
 stack-astro-ironsand-floor-borderless = borderless astro-ironsand floor

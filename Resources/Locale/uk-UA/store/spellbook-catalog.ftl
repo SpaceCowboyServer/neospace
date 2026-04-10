@@ -1,9 +1,9 @@
 # Spells
-spellbook-fireball-name = Fireball
-spellbook-fireball-desc = Get most crew exploding with rage when they see this fireball heading toward them! Upgradeable.
+spellbook-fireball-name = Фаєрбол
+spellbook-fireball-desc = Нехай більшість екіпажу вибухне від люті, коли побачить вогняну кулю, що прямує до них!
 
-spellbook-blink-name = Blink
-spellbook-blink-desc = Don't blink or you'll miss yourself teleporting away.
+spellbook-blink-name = Моргнути
+spellbook-blink-desc = Не кліпайте, а то проґавите, як телепортуєтесь геть.
 
 spellbook-voidapplause-name = Void Applause
 spellbook-voidapplause-desc = Swap places with the target, doesn't it make you want to do the boogie?
@@ -11,8 +11,8 @@ spellbook-voidapplause-desc = Swap places with the target, doesn't it make you w
 spellbook-knock-name = Knock
 spellbook-knock-desc = Opens all airlocks, crates and lockers nearby.
 
-spellbook-force-wall-name = Force Wall
-spellbook-force-wall-desc = Make three walls of pure force that you can pass through, but others can't.
+spellbook-force-wall-name = Силова Стіна
+spellbook-force-wall-desc = Зробіть три стіни з чистої сили, через які ви можете пройти, а інші - ні.
 
 spellbook-repulse-name = Repulse
 spellbook-repulse-desc = Tell people to GITTAH`WEIGH and push 'em away from you.
@@ -21,19 +21,19 @@ spellbook-smoke-name = Smoke
 spellbook-smoke-desc = Summons a cloud of smoke, it's pretty obvious.
 
 spellbook-polymorph-spider-name = Spider Polymorph
-spellbook-polymorph-spider-desc = Transforms you into a spider, man!
+spellbook-polymorph-spider-desc = Перетворює тебе на павука, чувак!
 
-spellbook-polymorph-rod-name = Rod Polymorph
-spellbook-polymorph-rod-desc = Change into an Immovable Rod with limited movement.
+spellbook-polymorph-rod-name = Поліморфний Стрижень
+spellbook-polymorph-rod-desc = Перетворитися на Нерухомий стрижень з обмеженим рухом.
 
-spellbook-charge-name = Charge
-spellbook-charge-desc = Adds a charge back to your wand!
+spellbook-charge-name = Заряд
+spellbook-charge-desc = Повертає заряд вашій паличці!
 
-spellbook-ethereal-jaunt-name = Ethereal Jaunt
-spellbook-ethereal-jaunt-description = Slip into the ethereal plane to slip away from your enemies!
+spellbook-ethereal-jaunt-name = Безтілесна прогулянка
+spellbook-ethereal-jaunt-description = Це заклинання перетворює вашу форму на безтілесну, тимчасово роблячи вас невидимим і здатним проходити крізь стіни. Для накладання потрібні мантія та капелюх чарівника.
 
-spellbook-mind-swap-name = Mind Swap
-spellbook-mind-swap-description = Exchange bodies with another person!
+spellbook-mind-swap-name = Обмін думками
+spellbook-mind-swap-description = Дозволяє вам помінятися тілами з мішенню, яка знаходиться поруч з вами. Ви обидва будете збиті з ніг, коли це станеться, і буде цілком очевидно, що ви - тіло цілі, якщо хтось побачить, як ви це робите. Не діє на перевертнів, єретиків, упирів, привидів і тимчасових істот. Не вимагає мантії та капелюха для використання. # Екіпірування
 
 spellbook-animate-name = Animate
 spellbook-animate-description = Bring an inanimate object to life!
@@ -52,14 +52,14 @@ spellbook-item-recall-description = Mark a held item and summon it back at any t
 
 # Equipment
 
-spellbook-wand-polymorph-door-name = Wand of Entrance
-spellbook-wand-polymorph-door-description = For when you need a get-away route.
+spellbook-wand-polymorph-door-name = Паличка Створення Дверей
+spellbook-wand-polymorph-door-description = Для тих випадків, коли вам потрібен маршрут для втечі.
 
-spellbook-wand-polymorph-carp-name = Wand of Carp Polymorph
-spellbook-wand-polymorph-carp-description = For when you need a carp filet quick and the clown is looking juicy.
+spellbook-wand-polymorph-carp-name = Паличка Коропового Поліморфу
+spellbook-wand-polymorph-carp-description = Для тих, кому потрібно швидко приготувати коропове філе, а клоун виглядає соковито.
 
-spellbook-wand-locker-name = Wand of the Locker
-spellbook-wand-locker-description = Shoot cursed lockers at your enemies and lock em away!
+spellbook-wand-locker-name = Співробітники камери схову
+spellbook-wand-locker-description = Стріляйте у ворогів проклятими шафками та замикайте їх! Автоматично перезаряджається кожні 4 секунди. # Події
 
 spellbook-hammer-mjollnir-name = Mjollnir
 spellbook-hammer-mjollnir-description = Wield the power of THUNDER in your hands. Send foes flying with a mighty swing or by throwing it right at em!
@@ -72,18 +72,18 @@ spellbook-staff-animation-description = Bring inanimate objects to life!
 
 # Events
 
-spellbook-event-summon-ghosts-name = Summon Ghosts
-spellbook-event-summon-ghosts-description = Who ya gonna call?
+spellbook-event-summon-ghosts-name = Викликати Привидів
+spellbook-event-summon-ghosts-description = Кому ти збираєшся дзвонити?
 
-spellbook-event-summon-guns-name = Summon Guns
-spellbook-event-summon-guns-description = AK47s for everyone! Places a random gun in front of everybody. Disables refunds when bought!
+spellbook-event-summon-guns-name = Прикликати Зброю
+spellbook-event-summon-guns-description = АК-47 для всіх! Розміщує випадкову зброю перед кожним. Відключає повернення коштів при покупці!
 
-spellbook-event-summon-magic-name = Summon Magic
-spellbook-event-summon-magic-description = Places a random magical item in front of everybody. Nothing could go wrong! Disables refunds when bought!
+spellbook-event-summon-magic-name = Прикликати Магію
+spellbook-event-summon-magic-description = Розміщує випадковий магічний предмет перед кожним. Нічого не може піти не так! Відключає повернення коштів при покупці!
 
 # Upgrades
-spellbook-upgrade-fireball-name = Upgrade Fireball
-spellbook-upgrade-fireball-description = Upgrades Fireball to a maximum of level 3!
+spellbook-upgrade-fireball-name = Покращення Фаєрболу
+spellbook-upgrade-fireball-description = Покращує Вогняну кулю до максимального 3-го рівня!
 
-spellbook-upgrade-jaunt-name = Upgrade Ethereal Jaunt
-spellbook-upgrade-jaunt-description = Upgrades Jaunt to a maximum of level 3!
+spellbook-upgrade-jaunt-name = Оновлення Ethereal Jaunt
+spellbook-upgrade-jaunt-description = Підвищує рівень Jaunt до максимального 3-го рівня!

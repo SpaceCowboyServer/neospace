@@ -1,26 +1,26 @@
 ### Secret stash component. Stuff like potted plants, comfy chair cushions, etc...
 
-comp-secret-stash-action-hide-success = You hide { THE($item) } in the {$stashname}.
-comp-secret-stash-action-hide-container-not-empty = There's already something in here!?
-comp-secret-stash-action-hide-item-too-big = { CAPITALIZE(THE($item)) } is too big to fit in the {$stashname}.
-comp-secret-stash-action-get-item-found-something = There was something inside the {$stashname}!
-comp-secret-stash-on-examine-found-hidden-item = There is something hidden inside the {$stashname}!
-comp-secret-stash-on-destroyed-popup = Something falls out of the the {$stashname}!
+comp-secret-stash-action-hide-success = Ви сховали { THE($item) } у { $this }
+comp-secret-stash-action-hide-container-not-empty = Тут щось вже є?!
+comp-secret-stash-action-hide-item-too-big = { THE($item) } занадто велике щоб поміститися у {$stash}!
+comp-secret-stash-action-get-item-found-something = Щось уже було в {$stash}!
+comp-secret-stash-on-examine-found-hidden-item = Усередині є щось приховане
+comp-secret-stash-on-destroyed-popup = Щось випадає з {$stashname}!
 
 ### Verbs
-comp-secret-stash-verb-insert-into-stash = Stash item
-comp-secret-stash-verb-insert-message-item-already-inside = There is already an item inside the {$stashname}.
-comp-secret-stash-verb-insert-message-no-item = Hide { THE($item) } in the {$stashname}.
-comp-secret-stash-verb-take-out-item = Grab item
-comp-secret-stash-verb-take-out-message-something = Take the contents of the {$stashname} out.
-comp-secret-stash-verb-take-out-message-nothing = There is nothing inside the {$stashname}.
+comp-secret-stash-verb-insert-into-stash = Сховати предмет
+comp-secret-stash-verb-insert-message-item-already-inside = У {$stashname} вже є предмет.
+comp-secret-stash-verb-insert-message-no-item = Сховати { THE($item) } у {$stashname}.
+comp-secret-stash-verb-take-out-item = Взяти предмет
+comp-secret-stash-verb-take-out-message-something = Дістати вміст {$stashname}.
+comp-secret-stash-verb-take-out-message-nothing = У {$stashname} нічого немає.
 
-comp-secret-stash-verb-close = Close
-comp-secret-stash-verb-cant-close = You can't close the {$stashname} with that.
-comp-secret-stash-verb-open = Open
+comp-secret-stash-verb-close = Закрити
+comp-secret-stash-verb-cant-close = Ви не можете закрити {$stashname} цим.
+comp-secret-stash-verb-open = Відкрити
 
 ### Stash names
-secret-stash-plant = plant
-secret-stash-toilet = toilet cistern
-secret-stash-plushie = plushie
-secret-stash-cake = cake
+secret-stash-plant = рослина
+secret-stash-toilet = зливний бачок унітаза
+secret-stash-plushie = плюшева іграшка
+secret-stash-cake = торт

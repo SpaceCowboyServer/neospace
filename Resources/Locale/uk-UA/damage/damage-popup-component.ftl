@@ -1,10 +1,9 @@
--damage-popup-component-type =
-    { $setting ->
-        [combined] Combined
-        [total] Total
-        [delta] Delta
-        [hit] Hit
-       *[other] Unknown
+-damage-popup-component-type = { $setting ->
+        [combined] Комбіновано
+        [total] Загалом
+        [delta] Дельта
+        [hit] Влучання
+       *[other] Невідомо
     }
 
-damage-popup-component-switched = Target set to type: { -damage-popup-component-type(setting: $setting) }
+damage-popup-component-switched = Встановлено цільовий тип

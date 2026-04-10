@@ -1,40 +1,40 @@
-analysis-console-menu-title = Broad-Spectrum Mark 3 Analysis Console
-analysis-console-server-list-button = Server
-analysis-console-extract-button = Extract points
+analysis-console-menu-title = консоль аналiзу артефактiв
+analysis-console-server-list-button = Список Серверів
+analysis-console-extract-button = Вилучити
 
-analysis-console-info-no-scanner = No analyzer connected! Please connect one using a multitool.
-analysis-console-info-no-artifact = No artifact present! Place one on the pad to view node information.
-analysis-console-info-ready = Systems operational. Ready to scan.
+analysis-console-info-no-scanner = Аналізатор не підключено! Будь ласка, підключіть його за допомогою мультитула.
+analysis-console-info-no-artifact = Артефакт відсутній! Помістіть артефакт на платформу, щоб переглянути інформацію про вузол.
+analysis-console-info-ready = Системи працюють і готові до сканування.
 
-analysis-console-no-node = Select node to view
+analysis-console-no-node = Виберіть вузол для перегляду
 analysis-console-info-id = [font="Monospace" size=11]ID:[/font]
 analysis-console-info-id-value = [font="Monospace" size=11][color=yellow]{$id}[/color][/font]
-analysis-console-info-class = [font="Monospace" size=11]Class:[/font]
+analysis-console-info-class = [font="Monospace" size=11]Клас:[/font]
 analysis-console-info-class-value = [font="Monospace" size=11]{$class}[/font]
-analysis-console-info-locked = [font="Monospace" size=11]Status:[/font]
+analysis-console-info-locked = [font="Monospace" size=11]Статус:[/font]
 analysis-console-info-locked-value = [font="Monospace" size=11][color={ $state ->
-    [0] red]Locked
-    [1] lime]Unlocked
-    *[2] plum]Active
+    [0] red]Заблоковано
+    [1] lime]Розблоковано
+    *[2] plum]Активно
 }[/color][/font]
-analysis-console-info-durability = [font="Monospace" size=11]Durability:[/font]
+analysis-console-info-durability = [font="Monospace" size=11]Міцність:[/font]
 analysis-console-info-durability-value = [font="Monospace" size=11][color={$color}]{$current}/{$max}[/color][/font]
-analysis-console-info-effect = [font="Monospace" size=11]Effect:[/font]
+analysis-console-info-effect = [font="Monospace" size=11]Ефект:[/font]
 analysis-console-info-effect-value = [font="Monospace" size=11][color=gray]{ $state ->
     [true] {$info}
-    *[false] Unlock nodes to gain info
+    *[false] Розблокуйте вузли, щоб отримати інформацію
 }[/color][/font]
-analysis-console-info-trigger = [font="Monospace" size=11]Triggers:[/font]
+analysis-console-info-trigger = [font="Monospace" size=11]Тригери:[/font]
 analysis-console-info-triggered-value = [font="Monospace" size=11][color=gray]{$triggers}[/color][/font]
-analysis-console-info-scanner = Scanning...
-analysis-console-info-scanner-paused = Paused.
+analysis-console-info-scanner = Сканування...
+analysis-console-info-scanner-paused = Призупинено.
 analysis-console-progress-text = {$seconds ->
-    [one] T-{$seconds} second
-    *[other] T-{$seconds} seconds
+    [one] T-{$seconds} секунда
+    *[other] T-{$seconds} секунд
 }
 
-analysis-console-extract-value = [font="Monospace" size=11][color=orange]Node {$id} (+{$value})[/color][/font]
-analysis-console-extract-none = [font="Monospace" size=11][color=orange] No unlocked nodes have any points left to extract [/color][/font]
-analysis-console-extract-sum = [font="Monospace" size=11][color=orange]Total Research: {$value}[/color][/font]
+analysis-console-extract-value = [font="Monospace" size=11][color=orange]Вузол {$id} (+{$value})[/color][/font]
+analysis-console-extract-none = [font="Monospace" size=11][color=orange] У розблокованих вузлах не залишилося очок для вилучення [/color][/font]
+analysis-console-extract-sum = [font="Monospace" size=11][color=orange]Загальне дослідження: {$value}[/color][/font]
 
-analyzer-artifact-extract-popup = Energy shimmers on the artifact's surface!
+analyzer-artifact-extract-popup = Енергія мерехтить на поверхні артефакту!

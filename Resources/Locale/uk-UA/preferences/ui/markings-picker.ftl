@@ -1,4 +1,4 @@
-markings-search = Search
+markings-search = Пошук
 -markings-selection = { $selectable ->
     [0] You have no markings remaining.
     [one] You can select one more marking.
