@@ -28,7 +28,7 @@ namespace Content.Shared.Localizations
             var culture = new CultureInfo(Culture); // Ukrainian locale
             var fallbackCulture = new CultureInfo(FallbackCulture); // Ukrainian locale
 
-            _loc.LoadCulture(fallbackCulture); // Ukrainian locale
+            _loc.LoadCulture(Culture); // Ukrainian locale
             _loc.SetFallbackCluture(fallbackCulture); // English locale
             _loc.AddFunction(culture, "PRESSURE", FormatPressure);
             _loc.AddFunction(culture, "POWERWATTS", FormatPowerWatts);
