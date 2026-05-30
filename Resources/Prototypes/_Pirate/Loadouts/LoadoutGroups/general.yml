@@ -15,6 +15,15 @@
 
 - type: loadoutGroup
   abstract: true
+  id: TrinketsFun
+  loadouts:
+  - CardBoxBlack
+  - CardBoxTarot
+  - CardBoxTippyTrump
+  - CardBoxSparot
+
+- type: loadoutGroup
+  abstract: true
   id: TrinketsUtility
   loadouts:
   - Pillow
