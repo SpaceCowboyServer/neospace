@@ -18,3 +18,10 @@
     back:
     - CardBoxTippyTrump
   groupBy: "cardbox"
+
+- type: loadout
+  id: CardBoxSparot
+  storage:
+    back:
+    - CardBoxSparot
+  groupBy: "cardbox"
