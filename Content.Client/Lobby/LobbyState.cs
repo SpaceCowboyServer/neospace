@@ -15,7 +15,7 @@ using Robust.Client.UserInterface.Controls;
 using Robust.Shared.Configuration;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
-using Content.Client._Impstation.ReadyManifest; // imp
+using Content.Client._Impstation.ReadyManifest; // Impstation - Ready Manifest
 
 namespace Content.Client.Lobby
 {
@@ -36,6 +36,7 @@ namespace Content.Client.Lobby
         private ContentAudioSystem _contentAudioSystem = default!;
         private ReadyManifestSystem _readyManifest = default!; //imp
 
+        private ReadyManifestSystem _readyManifest = default!; // Impstation - Ready Manifest
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
         public LobbyGui? Lobby;
 
@@ -53,6 +54,8 @@ namespace Content.Client.Lobby
             _contentAudioSystem = _entityManager.System<ContentAudioSystem>();
             _contentAudioSystem.LobbySoundtrackChanged += UpdateLobbySoundtrackInfo;
             _readyManifest = _entityManager.EntitySysManager.GetEntitySystem<ReadyManifestSystem>(); //imp
+
+            _readyManifest = _entityManager.EntitySysManager.GetEntitySystem<ReadyManifestSystem>(); // Impstation - Ready Manifest
 
             chatController.SetMainChat(true);
 
@@ -76,6 +79,8 @@ namespace Content.Client.Lobby
             Lobby.ReadyButton.OnToggled += OnReadyToggled;
             Lobby.ManifestButton.OnPressed += OnManifestPressed; // imp
 
+            Lobby.ManifestButton.OnPressed += OnManifestPressed; // Impstation - Ready Manifest
+
             _gameTicker.InfoBlobUpdated += UpdateLobbyUi;
             _gameTicker.LobbyStatusUpdated += LobbyStatusUpdated;
             _gameTicker.LobbyLateJoinStatusUpdated += LobbyLateJoinStatusUpdated;
@@ -96,6 +101,8 @@ namespace Content.Client.Lobby
             Lobby!.ReadyButton.OnPressed -= OnReadyPressed;
             Lobby!.ReadyButton.OnToggled -= OnReadyToggled;
             Lobby!.ManifestButton.OnPressed -= OnManifestPressed; // imp
+
+            Lobby!.ManifestButton.OnPressed -= OnManifestPressed; // Impstation - Ready Manifest
 
             Lobby = null;
         }
