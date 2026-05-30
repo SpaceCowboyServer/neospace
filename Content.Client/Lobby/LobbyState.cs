@@ -34,6 +34,7 @@ namespace Content.Client.Lobby
 
         private ClientGameTicker _gameTicker = default!;
         private ContentAudioSystem _contentAudioSystem = default!;
+        private ReadyManifestSystem _readyManifest = default!; //imp
 
         private ReadyManifestSystem _readyManifest = default!; // Impstation - Ready Manifest
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
@@ -52,6 +53,7 @@ namespace Content.Client.Lobby
             _gameTicker = _entityManager.System<ClientGameTicker>();
             _contentAudioSystem = _entityManager.System<ContentAudioSystem>();
             _contentAudioSystem.LobbySoundtrackChanged += UpdateLobbySoundtrackInfo;
+            _readyManifest = _entityManager.EntitySysManager.GetEntitySystem<ReadyManifestSystem>(); //imp
 
             _readyManifest = _entityManager.EntitySysManager.GetEntitySystem<ReadyManifestSystem>(); // Impstation - Ready Manifest
 
@@ -75,6 +77,7 @@ namespace Content.Client.Lobby
             Lobby.CharacterPreview.CharacterSetupButton.OnPressed += OnSetupPressed;
             Lobby.ReadyButton.OnPressed += OnReadyPressed;
             Lobby.ReadyButton.OnToggled += OnReadyToggled;
+            Lobby.ManifestButton.OnPressed += OnManifestPressed; // imp
 
             Lobby.ManifestButton.OnPressed += OnManifestPressed; // Impstation - Ready Manifest
 
@@ -97,6 +100,7 @@ namespace Content.Client.Lobby
             Lobby!.CharacterPreview.CharacterSetupButton.OnPressed -= OnSetupPressed;
             Lobby!.ReadyButton.OnPressed -= OnReadyPressed;
             Lobby!.ReadyButton.OnToggled -= OnReadyToggled;
+            Lobby!.ManifestButton.OnPressed -= OnManifestPressed; // imp
 
             Lobby!.ManifestButton.OnPressed -= OnManifestPressed; // Impstation - Ready Manifest
 
@@ -130,7 +134,7 @@ namespace Content.Client.Lobby
             SetReady(args.Pressed);
         }
 
-        // Impstation - Ready Manifest
+        //imp addition
         private void OnManifestPressed(BaseButton.ButtonEventArgs args)
         {
             _readyManifest.RequestReadyManifest();
