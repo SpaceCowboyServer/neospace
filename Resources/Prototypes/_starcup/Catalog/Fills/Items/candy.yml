@@ -1,0 +1,11 @@
+- type: entityTable
+  id: RandomMacaron
+  table: !type:GroupSelector
+    children:
+    - id: FoodMacaronBerry
+    - id: FoodMacaronMimana
+      weight: 0.5 # starcup - special ingredients should be slightly rarer
+    - id: FoodMacaronCotton
+      weight: 0.5 # starcup - all macarons are doptera-edible, so there's no need for this to be too common
+    - id: FoodMacaronLemon
+    - id: FoodMacaronCherry

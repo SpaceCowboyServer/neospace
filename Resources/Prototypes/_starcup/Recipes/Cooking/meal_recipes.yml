@@ -1,0 +1,9 @@
+- type: microwaveMealRecipe
+  id: RecipeChocolateHeartImitation
+  name: homemade imitation chocolate heart recipe
+  result: FoodHomemadeChocolateHeartImitation
+  time: 5
+  reagents:
+    Sugar: 2
+    CocoaPowderImitation: 2
+    Milk: 2
