@@ -19,6 +19,7 @@
   loadouts:
   - CardBoxBlack
   - CardBoxTarot
+  - CardBoxTippyTrump
 
 - type: loadoutGroup
   abstract: true
