@@ -4,6 +4,7 @@
   # Pirate additions
   parent:
   - TrinketsUtility
+  - TrinketsFun
   # Pirate end
   name: loadout-group-trinkets
   minLimit: 0

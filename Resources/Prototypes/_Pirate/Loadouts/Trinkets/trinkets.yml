@@ -1,0 +1,13 @@
+- type: loadout
+  id: CardBoxTarot
+  storage:
+    back:
+    - CardBoxTarot
+  groupBy: "cardbox"
+
+- type: loadout
+  id: CardBoxBlack
+  storage:
+    back:
+    - CardBoxBlack
+  groupBy: "cardbox"
