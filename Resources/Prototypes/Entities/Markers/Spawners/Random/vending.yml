@@ -33,7 +33,7 @@
       - id: VendingMachineSovietSoda #Boda
       - id: VendingMachineSpaceUp
       - id: VendingMachineStarkist
-
+      - id: VendingMachineBepis # Floofstation - Bepis
 
 - type: entityTable
   id: ClothingVendorTable

@@ -1,0 +1,15 @@
+- type: entity
+  parent: BaseVendingMachineRestock
+  id: VendingMachineRestockBepis
+  name: bepis restock box
+  description: A cold, clunky container of colliding chilly cylinders. Use only for Bepis brand vending machines.
+  components:
+  - type: VendingMachineRestock
+    canRestock:
+    - BepisInventory
+  - type: Sprite
+    layers:
+    - state: base
+    - state: green_bit
+      shader: unshaded
+    - state: refill_cola
