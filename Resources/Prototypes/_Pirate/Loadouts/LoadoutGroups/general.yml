@@ -1,0 +1,5 @@
+- type: loadoutGroup
+  abstract: true
+  id: TrinketsUtility
+  loadouts:
+  - Pillow
