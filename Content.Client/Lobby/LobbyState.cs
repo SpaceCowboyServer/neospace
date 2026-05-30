@@ -34,8 +34,6 @@ namespace Content.Client.Lobby
 
         private ClientGameTicker _gameTicker = default!;
         private ContentAudioSystem _contentAudioSystem = default!;
-        private ReadyManifestSystem _readyManifest = default!; //imp
-
         private ReadyManifestSystem _readyManifest = default!; // Impstation - Ready Manifest
         protected override Type? LinkedScreenType { get; } = typeof(LobbyGui);
         public LobbyGui? Lobby;
