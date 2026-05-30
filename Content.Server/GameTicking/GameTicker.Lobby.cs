@@ -188,6 +188,7 @@ namespace Content.Server.GameTicking
                 return;
             }
             // imp edit end
+
             _playerGameStatuses[player.UserId] = ready ? PlayerGameStatus.ReadyToPlay : PlayerGameStatus.NotReadyToPlay;
             RaiseNetworkEvent(GetStatusMsg(player), player.Channel);
             RaiseLocalEvent(new PlayerToggleReadyEvent(player)); //imp edit, for preround ready manifest

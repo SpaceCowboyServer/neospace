@@ -7,20 +7,20 @@ using Content.Shared.Preferences;
 using Robust.Shared.Configuration;
 using Robust.Shared.Player;
 using Robust.Shared.Prototypes;
-using Content.Shared.ReadyManifest;
+using Content.Shared._Impstation.ReadyManifest;
 using Content.Server.GameTicking;
 using Content.Server.Preferences.Managers;
 using Content.Server.GameTicking.Events;
 
-namespace Content.Server.ReadyManifest;
+namespace Content.Server._Impstation.ReadyManifest;
 
-public sealed class ReadyManifestSystem : EntitySystem
+public sealed partial class ReadyManifestSystem : EntitySystem
 {
-    [Dependency] private readonly EuiManager _euiManager = default!;
-    [Dependency] private readonly IConfigurationManager _configManager = default!;
-    [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-    [Dependency] private readonly GameTicker _gameTicker = default!;
-    [Dependency] private readonly IServerPreferencesManager _prefsManager = default!;
+    [Dependency] private EuiManager _euiManager = default!;
+    [Dependency] private IConfigurationManager _configManager = default!;
+    [Dependency] private IPrototypeManager _prototypeManager = default!;
+    [Dependency] private GameTicker _gameTicker = default!;
+    [Dependency] private IServerPreferencesManager _prefsManager = default!;
 
     private readonly Dictionary<ICommonSession, ReadyManifestEui> _openEuis = new();
     private Dictionary<ProtoId<JobPrototype>, int> _jobCounts = new();
