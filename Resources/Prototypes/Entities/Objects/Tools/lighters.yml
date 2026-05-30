@@ -218,6 +218,7 @@
         shader: unshaded
   - type: PointLight
     radius: 1.5 #slightly stronger than the other lighters
+  - type: Engraveable # Impstation
 
 - type: entity
   parent: BaseBrandedLighter
