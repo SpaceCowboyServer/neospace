@@ -29,6 +29,7 @@ using Robust.Shared.Prototypes;
 using Robust.Shared.Random;
 using Robust.Shared.Timing;
 using Content.Shared.Maps;
+using Content.Shared._NF.Shuttles;
 
 namespace Content.Server.Shuttles.Systems;
 
@@ -98,6 +99,7 @@ public sealed partial class ShuttleSystem : SharedShuttleSystem
             return;
 
         EnsureComp<ShuttleComponent>(ev.EntityUid);
+        EnsureComp<FTLDriveComponent>(ev.EntityUid); // Frontier edit
 
         // This and RoofComponent should be mutually exclusive, so ImplicitRoof should be removed if the grid has RoofComponent
         if (HasComp<RoofComponent>(ev.EntityUid))
