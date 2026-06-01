@@ -89,11 +89,28 @@ public abstract partial class SharedFlatpackSystem : EntitySystem
         var (layer, mask) = SharedPhysicsSystem.GetHardCollision(fixture);
         var buildPos = _map.TileIndicesFor(grid, gridComp, xform.Coordinates);
 
-        if (!_anchorable.TileFree((grid, gridComp), buildPos, layer, mask))
+        #region Pirate: coffeemaker
+        if (comp.CheckObstruction && !_anchorable.TileFree((grid, gridComp), buildPos, layer, mask))
         {
             _popup.PopupPredicted(Loc.GetString("flatpack-unpack-no-room"), uid, args.User);
             return;
         }
+        #endregion
+
+        // removed when porting since we got this code up
+        // #region Pirate: coffeemaker
+        // // TODO FLATPAK
+        // // Make this logic smarter. This should eventually allow for shit like building microwaves on tables and such.
+        // // Also: make it ignore ghosts
+        // var coords = _map.ToCenterCoordinates(grid, buildPos);
+        // if (comp.CheckObstruction && _entityLookup.AnyEntitiesIntersecting(coords, LookupFlags.Dynamic | LookupFlags.Static))
+        // {
+        //     // this popup is on the server because the predicts on the intersection is crazy
+        //     if (_net.IsServer)
+        //         _popup.PopupEntity(Loc.GetString("flatpack-unpack-no-room"), uid, args.User);
+        //     return;
+        // }
+        // #endregion
 
         if (_net.IsServer)
         {

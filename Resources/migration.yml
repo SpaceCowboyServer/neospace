@@ -844,9 +844,9 @@ CratePartsT4: null
 # 2024-12-30
 MarkerWeatherblocker: null
 #pirate
-CoffeeCartridgePirate: null
-CoffeemakerMachinePirate: null
-DrinkCoffeeCupPirate: null
+# CoffeeCartridgePirate: null
+# CoffeemakerMachinePirate: null
+# DrinkCoffeeCupPirate: null
 DrinkPremiumWhiskeyBottleFull: null
 Shower: null
 #lavalend

@@ -53809,8 +53809,6 @@ entities:
           endTime: 0
           startTime: 0
           length: 0
-    - type: EmitSoundOnCollide
-      nextSound: -1655.5650111
     - type: Physics
       canCollide: False
     - type: Forensics
@@ -54020,8 +54018,6 @@ entities:
       solutions: null
       containers:
       - food
-    - type: EmitSoundOnCollide
-      nextSound: -842.3658243
     - type: Physics
       canCollide: False
     - type: ContainerContainer
@@ -54323,8 +54319,6 @@ entities:
       solutions: null
       containers:
       - food
-    - type: EmitSoundOnCollide
-      nextSound: -842.3658243
     - type: Physics
       canCollide: False
     - type: ContainerContainer
@@ -54547,8 +54541,6 @@ entities:
       solutions: null
       containers:
       - food
-    - type: EmitSoundOnCollide
-      nextSound: -842.3658243
     - type: ContainerContainer
       containers:
         solution@food: !type:ContainerSlot
@@ -54964,8 +54956,6 @@ entities:
       solutions: null
       containers:
       - food
-    - type: EmitSoundOnCollide
-      nextSound: -842.3658243
     - type: Physics
       canCollide: False
     - type: ContainerContainer
@@ -55064,8 +55054,6 @@ entities:
       solutions: null
       containers:
       - food
-    - type: EmitSoundOnCollide
-      nextSound: -842.3658243
     - type: Physics
       canCollide: False
     - type: ContainerContainer
@@ -62562,8 +62550,6 @@ entities:
       - drink
     - type: MeleeWeapon
       nextAttack: -13.333319
-    - type: EmitSoundOnCollide
-      nextSound: -10721.9892779
     - type: ContainerContainer
       containers:
         solution@drink: !type:ContainerSlot
@@ -62586,8 +62572,6 @@ entities:
       - drink
     - type: MeleeWeapon
       nextAttack: -19.5333128
-    - type: EmitSoundOnCollide
-      nextSound: -10721.9892779
     - type: ContainerContainer
       containers:
         solution@drink: !type:ContainerSlot
@@ -98375,8 +98359,6 @@ entities:
 
 
         [italic] Примітка: особливо високий тиск та температура можуть призвести до швидкої смерті[/italic]
-    - type: EmitSoundOnCollide
-      nextSound: -3337.3633292
     - type: SolutionContainerManager
       solutions: null
       containers:
