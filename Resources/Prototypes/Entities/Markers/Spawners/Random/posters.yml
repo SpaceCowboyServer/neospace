@@ -123,6 +123,30 @@
     - id: PosterLegitTyrone
     - id: PosterLegitHelio
     - id: PosterLegitBotanyFear
+      # Pirate VVV
+    - id: PosterLegitDejaVu
+    - id: PosterLegitDontPanic
+    - id: PosterLegitBarDrinks
+    - id: PosterLegitBotanyFood
+    - id: PosterLegitHotDonkExplosion
+    - id: PosterLegitEatMeat
+    - id: PosterLegitMoreBread
+    - id: PosterLegitPieSlice
+    - id: PosterLegitPizzaHope
+    - id: PosterLegitMedicate
+    - id: PosterLegitNoTouching
+    - id: PosterLegitChknDnnr
+    - id: PosterLegitCornzza
+    - id: PosterLegitFuckAround
+    - id: PosterLegitSafetyMothPoisoning
+    - id: PosterLegitSafetyMothBoH
+    - id: PosterLegitSafetyMothFires
+    - id: PosterLegitSafetyMothPills
+    - id: PosterLegitSafetyMothGlimmer
+    - id: PosterLegitInterdynePublicZone
+    - id: PosterLegitInterdynePrivateZone
+    - id: PosterLegitInterdyneHQ
+    - id: PosterLegitLoveFurry
 
 - type: entity
   parent: MarkerBase

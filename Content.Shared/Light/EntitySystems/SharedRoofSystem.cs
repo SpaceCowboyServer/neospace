@@ -85,7 +85,7 @@ public abstract partial class SharedRoofSystem : EntitySystem
         return null;
     }
 
-    public void SetRoof(Entity<MapGridComponent?, RoofComponent?> grid, Vector2i index, bool value)
+    public void SetRoof(Entity<MapGridComponent?, RoofComponent?> grid, Vector2i index, bool value, bool occludeWeather)  // starcup: added weather occlusion argument
     {
         if (!Resolve(grid, ref grid.Comp1, ref grid.Comp2, false))
             return;
@@ -98,7 +98,7 @@ public abstract partial class SharedRoofSystem : EntitySystem
             // No value to remove so leave it.
             if (!value)
             {
-                return;
+                // return;  // starcup: selective weather occlusion on roofs
             }
 
             chunkData = 0;
@@ -107,19 +107,32 @@ public abstract partial class SharedRoofSystem : EntitySystem
         var chunkRelative = SharedMapSystem.GetChunkRelative(index, RoofComponent.ChunkSize);
         var bitFlag = (ulong) 1 << (chunkRelative.X + chunkRelative.Y * RoofComponent.ChunkSize);
 
+        // begin starcup: selective weather occlusion on roofs
+        roof.WeatherOcclusionData.TryGetValue(chunkOrigin, out var weatherChunkData);
+
+        var weatherOcclusionFlag = (ulong) 1 << (chunkRelative.X + chunkRelative.Y * RoofComponent.ChunkSize);
+
+        if (occludeWeather)
+            weatherChunkData |= weatherOcclusionFlag;
+        else
+            weatherChunkData &= ~weatherOcclusionFlag;
+
+        roof.WeatherOcclusionData[chunkOrigin] = weatherChunkData;
+        // end starcup
+
         if (value)
         {
             // Already set
-            if ((chunkData & bitFlag) == bitFlag)
-                return;
+            // if ((chunkData & bitFlag) == bitFlag)  // starcup: selective weather occlusion on roofs
+            //     return;  // starcup: selective weather occlusion on roofs
 
             chunkData |= bitFlag;
         }
         else
         {
             // Not already set
-            if ((chunkData & bitFlag) == 0x0)
-                return;
+            // if ((chunkData & bitFlag) == 0x0)  // starcup: selective weather occlusion on roofs
+            //     return;  // starcup: selective weather occlusion on roofs
 
             chunkData &= ~bitFlag;
         }

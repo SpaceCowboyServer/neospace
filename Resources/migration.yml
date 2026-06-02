@@ -836,3 +836,97 @@ FoodMeatSnail: MobSnail
 CratePartsT3: null
 CratePartsT3T4: null
 CratePartsT4: null
+
+
+#### GLACIER
+# MAP I COMMENTE TYPES:
+# FTLDrive add systems
+# 2024-12-30
+MarkerWeatherblocker: null
+#pirate
+# CoffeeCartridgePirate: null
+# CoffeemakerMachinePirate: null
+# DrinkCoffeeCupPirate: null
+DrinkPremiumWhiskeyBottleFull: null
+Shower: null
+#lavalend
+ComputerShuttleMiningLavaland: null
+#vase
+VasePlant1: null
+VasePlant2: null
+VasePlant3: null
+VasePlant4: null
+VasePlant5: null
+VasePlant6: null
+VasePlant7: null
+VasePlant8: null
+##banking
+Eftpos: null
+ATM: null
+#job-related
+ClothingUniformJumpskirtNanotrasenRepresentative: null
+ClothingUniformJumpsuitNanotrasenRepresentative: null
+SpawnPointAdminAssistant: null
+SpawnPointBlueshieldOfficer: null
+SpawnPointForensicMantis: null
+SpawnPointNanotrasenRepresentative: null
+SpawnPointRadioHost: null
+SpawnPointVirologist: null
+UndeterminedVoidsuitSecurity: null
+UniqueLockerBlueshieldOfficerFilled: null
+UniqueLockerNanorepFilled: null
+LockerBartenderFilled: null
+ClothingHeadsetAltRadioHost: null
+DresserBlueshieldOfficerFilled: null
+##psyonics
+ComputerPsionicsRecords: null
+GlimmerProber: null
+OracleSpawner: null
+SophicScribeSpawner: null
+PillMindbreakerToxin: null
+PillCryptobiolin: null
+LockerForensicMantisFilled: null
+HolopadEpistemicsMantis: null
+#nubody leftovers
+LeftFootHuman: null
+LeftHandHuman: null
+OrganSlimeLungs: null
+RightHandHuman: null
+RightLegSkeleton: null
+#mailing
+VendingMachineMailDrobe: null
+MailTeleporter: null
+#xenolab
+XenobioSlimeBabySpawner: null
+SlimeGrinder: null
+LockerScienceFilledXenobiology: null
+ComputerScienceXenobiologyBounty: null
+#weapons
+WeaponEnergyGunLawbringer: null
+WeaponRifleVulcanM: null
+#others
+WallDirectional: null
+VinylPlayer: null
+StationRadioRig: null
+StationRadioServer: null
+StationRadioReceiver: null
+SpawnVehicleChairOfficeLight: null
+SpawnVehicleChairOfficeDark: null
+RandomBox: null
+RandomItem: null
+MedicalBiofabricator: null
+CrateRadioStationVinyls: null
+CrateRadioStationAds: null
+BaseHandheldTelevision: null
+BloodWritingCircle: null
+CargoTechFab: null
+ChestSkeleton: null
+ClothingHeadHelmetInsulated: null
+EnergyChemDispenser: null
+EngineeringTechFab: null
+MaterialSilo: null
+PrinterDoc: null
+RandomRockSpawner: null
+SalvageSeedSpawnerLow: null
+ScienceTechFab: null
+ServiceTechFab: null
