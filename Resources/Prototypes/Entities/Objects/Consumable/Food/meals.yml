@@ -453,6 +453,9 @@
       - memoryleek
   - type: Sprite
     state: memoryLeek
+  - type: Tag # MACROCOSM: Allow item to be inserted in costume bundles
+    tags:
+    - CostumeItem
 # Tastes like pain.
 
 - type: entity
