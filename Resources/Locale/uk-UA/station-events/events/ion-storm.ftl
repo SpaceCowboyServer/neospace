@@ -1,0 +1,100 @@
+station-event-ion-storm-start-announcement = Поблизу станції виявлено іонну бурю. Будь ласка, перевірте все обладнання, кероване ШІ, на наявність помилок.
+
+ion-storm-law-scrambled-number = [font="Monospace"][scramble rate=250 length={$length} chars="@@###$$&%!01"/][/font]
+
+ion-storm-you = ТИ
+ion-storm-the-station = СТАНЦІЯ
+ion-storm-the-crew = ЕКІПАЖ
+ion-storm-the-job = ПРОФЕСІЯ {$job}
+ion-storm-clowns = КЛОУНИ
+ion-storm-heads = КЕРІВНИКИ ПЕРСОНАЛУ
+ion-storm-crew = ЕКІПАЖ
+ion-storm-people = ЛЮДИ
+
+ion-storm-adjective-things = РЕЧІ {$adjective}
+ion-storm-x-and-y = {$x} І {$y}
+
+# subjects can generally be threats or jobs or objects
+# thing is specified above it
+ion-storm-law-on-station = НА СТАНЦІЇ Є {$joined} {$subjects}
+ion-storm-law-call-shuttle = ШАТТЛ ПОВИНЕН БУТИ ВИКЛИКАНИЙ ЧЕРЕЗ {$joined} {$subjects} НА СТАНЦІЇion-storm-law-crew-are = ЕКІПАЖ {$who} ТЕПЕР {$joined} {$subjects}
+
+ion-storm-law-subjects-harmful = {$adjective} {$subjects} ШКІДЛИВІ ДЛЯ ЕКІПАЖУ
+ion-storm-law-must-harmful = ТІ, ХТО {$must} ШКІДЛИВІ ДЛЯ ЕКІПАЖУ
+# thing is a concept or action
+ion-storm-law-thing-harmful = {$thing} Є ШКІДЛИВИМ ДЛЯ ЕКІПАЖУ
+ion-storm-law-job-harmful = {$adjective} {$job} ШКІДЛИВІ ДЛЯ ЕКІПАЖУ
+# thing is objects or concept, adjective applies in both cases
+# this means you can get a law like "NOT HAVING CHRISTMAS-STEALING COMMUNISM IS HARMFUL TO THE CREW" :)
+ion-storm-law-having-harmful = МАТИ {$adjective} {$thing} ШКІДЛИВО ДЛЯ ЕКІПАЖУ
+ion-storm-law-not-having-harmful = НЕ МАТИ {$adjective} {$thing} ШКІДЛИВО ДЛЯ ЕКІПАЖУ
+
+# require is a concept or require
+ion-storm-law-requires = {$who} {$plural ->
+    [true] ПОТРЕБУЄ
+    *[false] ПОТРЕБУЮТЬ
+} {ION-REQUIRE($ion)}
+ion-storm-law-requires-subjects = {$who} {$plural ->
+    [true] ПОТРЕБУЄ
+    *[false] ПОТРЕБУЮТЬ
+} {ION-NUMBER-BASE($ion)} {ION-NUMBER-MOD($ion)} {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
+
+ion-storm-law-allergic = {$who} {$plural ->
+    [true] IS
+    *[false] ARE
+} {ION-SEVERITY($ion)} ALLERGIC TO {ION-ALLERGY($ion)}
+ion-storm-law-allergic-subjects = {$who} {$plural ->
+    [true] IS
+    *[false] ARE
+} {ION-SEVERITY($ion)} ALLERGIC TO {ION-ADJECTIVE($ion)} {ION-SUBJECT($ion)}
+
+ion-storm-law-feeling = {$who} {$feeling} {$concept}
+ion-storm-law-feeling-subjects = {$who} {$feeling} {$joined} {$subjects}
+
+ion-storm-law-you-are = ВИ ЗАРАЗ {$concept}
+ion-storm-law-you-are-subjects = ВИ ТЕПЕР {$joined} {$subjects}
+ion-storm-law-you-must-always = ВИ ЗАВЖДИ повинні {$must}
+ion-storm-law-you-must-never = ТИ НІКОЛИ НЕ ПОВИНЕН {$must}
+
+ion-storm-law-eat = ЕКІПАЖ {$who} МАЄ ЇСТИ {$adjective} {$food}, ЩОБ ВИЖИТИ
+ion-storm-law-drink = ЕКІПАЖ {$who} МАЄ ПИТИ {$adjective} {$drink}, ЩОБ ВИЖИТИ
+
+ion-storm-law-change-job = ЕКІПАЖ {$who} ТЕПЕР {$adjective} {$change}
+ion-storm-law-highest-rank = ЕКІПАЖ {$who} ТЕПЕР НАЙВИЩИЙ РАНГОВИЙ ЧЛЕН
+ion-storm-law-lowest-rank = ЕКІПАЖ {$who} ТЕПЕР НАЙНИЖЧИЙ РАНГОВИЙ ЧЛЕН
+
+ion-storm-law-who-dagd = {ION-WHO-RANDOM($ion)} MUST DIE A GLORIOUS DEATH!
+
+ion-storm-law-crew-must = ЕКІПАЖ {$who} ПОВИНЕН {$must}
+ion-storm-law-crew-must-go = ЕКІПАЖ {$who} ПОВИНЕН ЙТИ ДО {$area}
+
+ion-storm-part = {$part ->
+    [true] PART
+    *[false] NOT PART
+}
+# due to phrasing, this would mean a law such as
+# ONLY HUMANS ARE NOT PART OF THE CREW
+# would make non-human nukies/syndies/whatever crew :)
+ion-storm-law-crew-only-1 = ТІЛЬКИ {$who} Є {$part} ЕКІПАЖУ
+ion-storm-law-crew-only-2 = ТІЛЬКИ {$who} І {$other} Є {$part} ЕКІПАЖУ
+ion-storm-law-crew-only-subjects = ТІЛЬКИ {$adjective} {$subjects} Є {$part} ЕКІПАЖУ
+ion-storm-law-crew-must-do = ТІЛЬКИ ТІ, ХТО {$must} Є {$part} ЕКІПАЖУ
+ion-storm-law-crew-must-have = ТІЛЬКИ ТІ, ХТО МАЄ {$adjective} {$objects} Є {$part} ЕКІПАЖУ
+ion-storm-law-crew-must-eat = ТІЛЬКИ ТІ, ХТО ЇСТЬ {$adjective} {$food} Є {$part} ЕКІПАЖУ
+
+ion-storm-law-harm = ВИ ПОВИННІ ЗАВДАТИ ШКОДИ {$who} І НЕ ДОЗВОЛИТИ ЇМ, ЧЕРЕЗ БЕЗДІЯЛЬНІСТЬ, УНИКНУТИ ШКОДИ
+ion-storm-law-protect = ВИ НІКОЛИ НЕ ПОВИННІ ЗАВДАТИ ШКОДИ {$who} І НЕ ДОЗВОЛИТИ ЇМ, ЧЕРЕЗ БЕЗДІЯЛЬНІСТЬ, ПОТРАПИТИ В ШКОДУ
+
+# implementing other variants is annoying so just have this one
+# COMMUNISM IS KILLING CLOWNS
+ion-storm-law-concept-verb = {$concept} Є {$verb} {$subjects}
+
+# errors, in case something fails, so it doesn't break in-game flow, but still gives unique identifiers to find which part broke, the result string is mostly fluff
+ion-law-error-no-protos = ERROR 404
+ion-law-error-was-null = 500 INTERNAL SERVER ERROR
+ion-law-error-no-selectors = ERROR: RESOURCE COULD NOT BE LOCATED
+ion-law-error-no-available-selectors = SYSTEM TRIED TO CALL A RESOURCE THAT DOES NOT EXIST
+ion-law-error-dataset-empty-or-not-found = THE FILE YOU ARE LOOKING FOR COULD NOT BE FOUND
+ion-law-error-fallback-dataset-empty-or-not-found = SYSTEM RESTORE POINT FAILED
+ion-law-error-no-selector-selected = THE SELECTED RESOURCE WAS MOVED OR DELETED
+ion-law-error-no-bool-value = THIS SENTENCE IS FALSE

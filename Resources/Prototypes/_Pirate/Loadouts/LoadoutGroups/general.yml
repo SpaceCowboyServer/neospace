@@ -1,0 +1,29 @@
+- type: loadoutGroup
+  parent:
+  - CosmeticsJewelry
+  id: Cosmetics
+  name: loadout-group-cosmetics
+  minLimit: 0
+  maxLimit: 3
+
+- type: loadoutGroup
+  abstract: true
+  id: CosmeticsJewelry
+  loadouts:
+  - CDDogtags
+  - HeartLocket  # Impstation
+
+- type: loadoutGroup
+  abstract: true
+  id: TrinketsFun
+  loadouts:
+  - CardBoxBlack
+  - CardBoxTarot
+  - CardBoxTippyTrump
+  - CardBoxSparot
+
+- type: loadoutGroup
+  abstract: true
+  id: TrinketsUtility
+  loadouts:
+  - Pillow

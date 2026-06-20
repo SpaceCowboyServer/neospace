@@ -1,4 +1,13 @@
-<p align="center"> <img alt="Macrocosm" src="https://github.com/syndicate-ss14/macrocosm/blob/master/Resources/Textures/_MACRO/Logo/logo.png" /></p></div>
+CURRENTLY IN DEVELOPMENT, REPO OPEN TO BE IN COMPLIENCE WITH UPSTEREAM LICENSES.
+README.MD TO BE CHANGED, ALL LICENSES TO BE ADDED IF REPO GOES INTO PRODUCTION TEST.
+
+
+
+<div class="header" align="center">  
+<img alt="Space Station 14" width="880" height="300" src="https://raw.githubusercontent.com/space-wizards/asset-dump/de329a7898bb716b9d5ba9a0cd07f38e61f1ed05/github-logo.svg">  
+</div>
+
+Space Station 14 is a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), our homegrown engine written in C#.
 
 Macrocosm is a shared development repository for Space Station 14, a remake of SS13 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), a homegrown engine written in C#.
 

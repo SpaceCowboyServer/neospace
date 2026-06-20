@@ -1,0 +1,8 @@
+- type: vendingMachineInventory
+  id: BepisInventory
+  startingInventory:
+    # Drinks
+    DrinkCanBepis: 4
+    DrinkCanBepisCherry: 4
+    # todo make a second and third version
+    DrinkBoykisserEnergy: 4

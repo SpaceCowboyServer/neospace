@@ -1,0 +1,11 @@
+- type: loadout
+  id: CDDogtags
+  storage:
+    back:
+    - CDDogtags
+
+- type: loadout
+  id: HeartLocket
+  storage:
+    back:
+    - HeartLocket

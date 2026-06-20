@@ -8,6 +8,7 @@
   - CaptainBackpack
   - CaptainOuterClothing
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- CaptainJobTrinkets
   - GroupSpeciesBreathTool
@@ -24,6 +25,7 @@
   - HoPOuterClothing
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- HoPJobTrinkets
   - GroupSpeciesBreathTool
@@ -54,6 +56,7 @@
   - PassengerShoes
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- PassengerJobTrinkets
   - GroupSpeciesBreathTool
@@ -69,6 +72,7 @@
   - BartenderOuterClothing
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   - BartenderJobTrinkets
   - GroupSpeciesBreathTool
@@ -82,6 +86,7 @@
   - CommonBackpack
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- ServiceWorkerJobTrinkets
   - GroupSpeciesBreathTool
@@ -98,6 +103,7 @@
   - ChefOuterClothing
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- ChefJobTrinkets
   - GroupSpeciesBreathTool
@@ -111,6 +117,7 @@
   - CommonBackpack
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- LibrarianJobTrinkets
   - GroupSpeciesBreathTool
@@ -125,6 +132,7 @@
   - CommonBackpack
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- LawyerJobTrinkets
   - GroupSpeciesBreathTool
@@ -144,6 +152,7 @@
   - ChaplainBible
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- ChaplainJobTrinkets
   - GroupSpeciesBreathTool
@@ -160,6 +169,7 @@
   - JanitorOuterClothing
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   - JanitorJobTrinkets
   - GroupSpeciesBreathTool
@@ -175,6 +185,7 @@
   - BotanistOuterClothing
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- BotanistJobTrinkets
   - GroupSpeciesBreathTool
@@ -192,6 +203,7 @@
   - ClownShoes
   - Glasses
   - SurvivalClown
+  - Cosmetics # Pirate
   - Trinkets
   - ClownJobTrinkets
   - GroupBreathToolDecapoidInventoryClown # MACRO: Decapoid
@@ -209,6 +221,7 @@
   - MimeBelt
   - Glasses
   - SurvivalMime
+  - Cosmetics # Pirate
   - Trinkets
   #- MimeJobTrinkets
   - GroupBreathToolDecapoidInventoryMime # MACRO: Decapoid
@@ -223,6 +236,7 @@
   - MusicianOuterClothing
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- MusicianJobTrinkets
   - Instruments
@@ -242,6 +256,7 @@
   - QuartermasterShoes
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- QuartermasterJobTrinkets
   - GroupSpeciesBreathTool
@@ -259,6 +274,7 @@
   - CargoTechnicianID
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- CargoTechnicianJobTrinkets
   - GroupSpeciesBreathTool
@@ -273,6 +289,7 @@
   - SalvageSpecialistShoes
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- SalvageSpecialistJobTrinkets
   - GroupSpeciesBreathTool
@@ -290,6 +307,7 @@
   - ChiefEngineerOuterClothing
   - ChiefEngineerShoes
   - SurvivalExtended
+  - Cosmetics # Pirate
   - Trinkets
   #- ChiefEngineerJobTrinkets
   - GroupSpeciesBreathTool
@@ -302,6 +320,7 @@
   - TechnicalAssistantJumpsuit
   - StationEngineerBackpack
   - SurvivalExtended
+  - Cosmetics # Pirate
   - Trinkets
   #- TechnicalAssistantJobTrinkets
   - GroupSpeciesBreathTool
@@ -318,6 +337,7 @@
   - StationEngineerShoes
   - StationEngineerID
   - SurvivalExtended
+  - Cosmetics # Pirate
   - Trinkets
   #- StationEngineerJobTrinkets
   - GroupSpeciesBreathTool
@@ -332,6 +352,7 @@
   - AtmosphericTechnicianOuterClothing
   - AtmosphericTechnicianShoes
   - SurvivalExtended
+  - Cosmetics # Pirate
   - Trinkets
   #- AtmosphericTechnicianJobTrinkets
   - GroupSpeciesBreathTool
@@ -351,6 +372,7 @@
   - ResearchDirectorShoes
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- ResearchDirectorJobTrinkets
   - GroupSpeciesBreathTool
@@ -370,6 +392,7 @@
   - ScientistPDA
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- ScientistJobTrinkets
   - GroupSpeciesBreathTool
@@ -383,6 +406,7 @@
   - ScientistBackpack
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- ResearchAssistantJobTrinkets
   - GroupSpeciesBreathTool
@@ -400,6 +424,7 @@
   - HeadofSecurityOuterClothing
   - SecurityShoes
   - SurvivalSecurity
+  - Cosmetics # Pirate
   - Trinkets
   - HeadofSecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
@@ -415,6 +440,7 @@
   - WardenOuterClothing
   - SecurityShoes
   - SurvivalSecurity
+  - Cosmetics # Pirate
   - Trinkets
   - WardenJobTrinkets
   - GroupSpeciesBreathToolSecurity
@@ -431,6 +457,7 @@
   - SecurityPDA
   - SecurityBelt
   - SurvivalSecurity
+  - Cosmetics # Pirate
   - Trinkets
   - SecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
@@ -446,6 +473,7 @@
   - DetectiveOuterClothing
   - SecurityShoes
   - SurvivalSecurity
+  - Cosmetics # Pirate
   - Trinkets
   - DetectiveJobTrinkets
   - GroupSpeciesBreathToolSecurity
@@ -457,6 +485,7 @@
   - SecurityCadetJumpsuit
   - SecurityBackpack
   - SurvivalSecurity
+  - Cosmetics # Pirate
   - Trinkets
   #- SecurityCadetJobTrinkets
   - GroupSpeciesBreathToolSecurity
@@ -473,6 +502,7 @@
   - CommonBackpack
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- ReporterJobTrinkets
   - GroupSpeciesBreathTool
@@ -486,6 +516,7 @@
   - MedicalBackpack
   - Glasses
   - Survival
+  - Cosmetics # Pirate
   - Trinkets
   #- PsychologistJobTrinkets
   - GroupSpeciesBreathTool

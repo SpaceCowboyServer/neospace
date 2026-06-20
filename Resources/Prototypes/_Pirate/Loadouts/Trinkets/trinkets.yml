@@ -1,0 +1,27 @@
+- type: loadout
+  id: CardBoxTarot
+  storage:
+    back:
+    - CardBoxTarot
+  groupBy: "cardbox"
+
+- type: loadout
+  id: CardBoxBlack
+  storage:
+    back:
+    - CardBoxBlack
+  groupBy: "cardbox"
+
+- type: loadout
+  id: CardBoxTippyTrump
+  storage:
+    back:
+    - CardBoxTippyTrump
+  groupBy: "cardbox"
+
+- type: loadout
+  id: CardBoxSparot
+  storage:
+    back:
+    - CardBoxSparot
+  groupBy: "cardbox"
